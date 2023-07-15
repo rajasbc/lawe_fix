@@ -1,0 +1,411 @@
+.connect-container-first {
+    margin-top: 62px;
+    background-color: #292734;
+    h5 {
+        text-transform: unset;
+        color: #FFFFFF;
+        font-family: Titillium;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 37px;
+    }
+    h6 {
+        text-transform: unset;
+        color: #FFC602;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .cm-second{
+        h5 {
+        text-align: left;
+        cursor: pointer;
+        }
+    }
+}
+.connent-container-second {
+    .card-container {
+        margin: 20px 0px;
+        border: 6px solid rgba(0, 0, 0, 0.12);
+        .user-info-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px;
+            .name-title-container {
+                box-shadow: unset;
+                padding: 0 10px;
+                .name {
+                    color: #B65858;
+                }
+                .experience {
+                    color: #666464;
+                    font-family: 'Titillium';
+                    font-size: 0.975rem;
+                    font-weight: bold;
+                    letter-spacing: 0;
+                    line-height: 24px;
+                    text-transform: unset;
+                }
+            }
+        }
+        .case-info-container {
+            padding: 0 50px;
+            .case-info-sub-container {
+                display: flex;
+                align-items: unset;
+                padding: 5px 10px;
+                .label {
+                    text-transform: unset;
+                    text-align: justify;
+                    flex: 1;
+                    padding: 0 10px;
+                    color: #666464;
+                    font-family: Titillium;
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                    letter-spacing: 0;
+                    line-height: 29px;
+                    h6 {
+                        text-transform: unset;
+                        text-align: right;
+                        color: #666464;
+                        font-family: Titillium;
+                        font-size: 0.875rem;
+                        font-weight: bold;
+                        letter-spacing: 0;
+                        line-height: 29px;
+                    }
+                    p {
+                        text-transform: unset;
+                        text-align: right;
+                        color: #666464;
+                    }
+                }
+                .input-field {
+                    flex: 3;
+                    text-transform: unset;
+                    text-align: left;
+                    .MuiSelect-select {
+                        padding: 12px !important;
+                    } 
+                }
+                .picker-container {
+                    display: flex;
+                    align-items: unset;
+                    justify-content: space-between;
+                    h6 {
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
+                    .MuiFormControl-marginNormal {
+                        margin-top: 0;
+                        .Mui-disabled {
+                            color: #666464;
+                            &:before {
+                                border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+                            }
+                        }
+                    }
+                    p {  
+                        text-align: left;
+                        padding-left: 10px;
+                    }
+                }
+                .file-upload-container {
+                    .MuiDropzoneArea-textContainer {
+                        p {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                .description-container {
+                    background-color: #F3F2EF;
+                    flex: 3;
+                    padding: 10px;
+                    .description-input-field {
+                        text-transform: unset;
+                        text-align: left;
+                    }
+                }
+                .stage-container, .proposed-stage-container {
+                    display: flex;
+                    margin: 1rem 0;
+                    .stage-box-1 {
+                        flex: 2;
+                        margin-right: 1rem;
+                        .stage-check-field {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin: 0.5rem 0;
+                            h6 {
+                                min-width: 12.5rem;
+                                font-size: 1rem;
+                                text-transform: unset;
+                                margin-right: 2rem;
+                            }
+                            .in-progress-stage {
+                                Button {
+                                    height: 40px;
+                                    font-size: 0.875rem;
+                                    text-transform: none;
+                                    color: #292734;
+                                    background-color: #CEF8C9;
+                                    min-width: 11rem;
+                                    &:hover {
+                                        color: #292734;
+                                        background-color: #CEF8C9;
+                                    }
+                                    span {
+                                        color: #292734;
+                                    }
+                                }
+                            }
+                            .feature-stage {
+                                Button {
+                                    height: 40px;
+                                    font-size: 0.875rem;
+                                    text-transform: none;
+                                    color: #292734;
+                                    background-color: #EFE2B5;
+                                    min-width: 11rem;
+                                    &:hover {
+                                        color: #292734;
+                                        background-color: #EFE2B5;
+                                    }
+                                    span {
+                                        color: #292734;
+                                    }
+                                }
+                            }
+                            .completed-stage {
+                                Button {
+                                    height: 40px;
+                                    font-size: 0.875rem;
+                                    text-transform: none;
+                                    color: #292734;
+                                    background-color: #ffc9cb;
+                                    min-width: 11rem;
+                                    &:hover {
+                                        color: #292734;
+                                        background-color: #ffc9cb;
+                                    }
+                                    span {
+                                        color: #292734;
+                                    }
+                                }
+                            }
+                            .approve-closure {
+                                margin-left: 1rem;
+                                Button {
+                                    height: 40px;
+                                    font-size: 0.875rem;
+                                    text-transform: none;
+                                    color: #292734;
+                                    background-color: #FFC602;
+                                    min-width: 11rem;
+                                    &:hover {
+                                        color: #292734;
+                                        background-color: #FFC602;
+                                    }
+                                    span {
+                                        color: #292734;
+                                    }
+                                }
+                            }
+                            .stage-input {
+                                max-width: 10rem;
+                                margin-right: 1.3rem;
+                            }
+                        }
+                        .stage-proposed-field {
+                            justify-content: unset;
+                        }
+                    }
+                    .stage-box-2 {
+                        flex: 1;
+                        background-color: #D8D8D8;
+                        padding: 1rem;
+                        h6 {
+                            text-transform: unset;
+                        }
+                    }
+                }
+                .lawyer-file-container {
+                    .preview-container {
+                        display: flex;
+                        .img-view {
+                            height: 75px;
+                            width: 75px;
+                            margin-right: 5px;
+                            border: 1px solid #979797;
+                            background-color: #4caf50;
+                            cursor: pointer;
+                        }
+                        .upload-container {
+                            display: flex;
+                            align-items: center;
+                            padding: 0.5rem;
+                            .upload-btn {
+                                min-width: 7rem;
+                                height: 40px;
+                                font-size: 0.975rem;
+                                text-transform: none;
+                                color: #292734;
+                                background-color: #FFC602;
+                                &:hover {
+                                    color: #292734;
+                                    background-color: #FFC602;
+                                }
+                                span {
+                                    color: #292734;
+                                }
+                            }
+                        }
+                    }
+                }
+                .lawyer-acknowledge-container {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 1.5rem;
+                    h6 {
+                        text-transform: unset;
+                        font-size: 1rem;
+                        padding-right: 0px;
+                    }
+                }
+            }
+            .fees-info {
+                padding: 1rem 0;
+            }
+            .notes-container {
+                .notes-field {
+                    width: 100%;
+                }
+            }
+            .first-notes-container {
+                margin-bottom: 2rem;
+            }
+            .stage-card-container {
+                padding: 1rem 0;
+            }
+        }
+        .acknowldge-contanier {
+            box-shadow: unset;
+            padding: 20px 50px;
+            .ack-titile {
+                padding-bottom: 10px;
+            }
+            h6 {
+                text-transform: unset;
+                padding: 0;
+                margin: 0;
+                line-height: 1.5rem;
+                color: #524E4E;
+                font-size: 0.900rem;
+            }
+        }
+    }
+    
+}
+.button-container, .send-message-container {
+    text-align: center;
+    padding: 2rem 0.5rem !important;
+    justify-content: flex-end;
+    Button {
+        height: 40px;
+        font-size: 0.875rem;
+        text-transform: none;
+        color: #fff;
+        background-color: #292734;
+        &:hover {
+            color: #fff;
+            background-color: #000;
+        }
+        span {
+            color: #fff;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .connent-container-second .card-container .case-info-container .case-info-sub-container .picker-container {
+        // margin-left: -71px;
+        display: flex;
+        align-items: unset;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.Mui-disabled.Mui-disabled.MuiInputBase-formControl.MuiInputBase-marginDense.MuiOutlinedInput-marginDense{
+         width:18rem!important;
+        .MuiInputBase-input.MuiOutlinedInput-input.Mui-disabled.Mui-disabled.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense{
+            width:9rem!important;
+
+        }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .connent-container-second .card-container .case-info-container .case-info-sub-container .picker-container .MuiFormControl-marginNormal {
+        margin-top: 6px;
+    }
+    .connent-container-second .card-container .case-info-container .case-info-sub-container .lawyer-acknowledge-container {
+        display: grid;
+        align-items: center;
+        margin-top: 1.5rem;
+        h6 {
+            text-transform: unset;
+            font-size: 1rem;
+            padding-right: 0px;
+        }
+    }
+    .MuiInput-underline{
+        width: fit-content!important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .connent-container-second .card-container .case-info-container .case-info-sub-container .description-container {
+        background-color: #F3F2EF;
+        flex: 1;
+        padding: 10px;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
+    .connent-container-second .card-container .case-info-container .case-info-sub-container .input-field {
+        flex: 1;
+        text-transform: unset;
+        text-align: left;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .MuiInputBase-marginDense.MuiOutlinedInput-marginDense {
+        width: 230px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .connent-container-second .card-container .case-info-container .case-info-sub-container {
+    display: flex;
+    align-items: unset;
+    padding: 5px 10px;
+    flex-direction: column;
+}
+  }
+  @media only screen and (max-width: 600px) {
+    .connent-container-second .card-container .case-info-container .case-info-sub-container .proposed-stage-container {
+        display: flex;
+        margin: 1rem 0;
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .connent-container-second .card-container .case-info-container .case-info-sub-container .proposed-stage-container .stage-box-1 .stage-check-field {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0.5rem 0;
+        flex-direction: column;
+    }
+  }

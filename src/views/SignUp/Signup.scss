@@ -1,0 +1,137 @@
+.signup-container {
+    margin-top: 62px;
+    background-color: #292734;
+    padding: 20px;
+    h5 {
+        text-transform: unset;
+        color: #fff;
+    }
+    h6 {
+        text-transform: unset;
+        color: #FFC602;
+    }
+}
+.main-radio-container {
+    align-content: center;
+    min-height: 100px;
+    text-align: center;
+    width: 15rem;
+    margin: 106px auto;
+    .radio-field-set {
+        width: 100%;
+        .radio-label {
+            color: #292734;
+        }
+    }
+    h6 {
+        text-transform: unset;
+        color: #292734;
+        margin: 0.5em;
+    }
+}
+
+
+.form-container {
+    padding: 10px 20px;
+    min-height: 515px;
+    .radio-container {
+        text-align: center;
+        .radio-field-set {
+            width: 100%;
+            .radio-label {
+                color: #292734;
+            }
+        }
+        h6 {
+            text-transform: unset;
+            color: #292734;
+            margin: 0.5em;
+        }
+    }
+
+    .MuiFormControlLabel-label {
+        font-size: 1.2rem;
+        width: 230px;
+    }
+    .button-text, .signup-button {
+        button {
+            border-radius: 8px;
+            background-color: #292734;
+            color: #FFFFFF;
+            font-size: 1rem;
+            letter-spacing: 0;
+            line-height: 24px;
+            text-align: center;
+            width: 150px;
+            border-color: #000;
+            &:hover {
+                background-color: #000;
+                color: #FFF;
+                border-color: #000 !important;
+            }
+            &:active {
+                background-color: #000 !important;
+                color: #FFF !important;
+                border-color: #000 !important;
+                box-shadow: none !important;
+            }
+            &:focus {
+                background-color: #000 !important;
+                color: #FFF !important;
+                border-color: #000 !important;
+                box-shadow: none !important;
+            }
+        }
+        .has-error {
+            color: #eb4034;
+            margin-top: 10px;
+        }
+        .button-icon-right {
+            display: none;
+        }
+    }
+}
+
+
+.full-screen-dialog {
+    width: 100% !important;
+    .submit-lawyer-btn {
+        text-align: center;
+        margin: 10px 0;
+        .add-lawyer-btn {
+            background-color: #292734;
+            text-transform: unset;
+        }
+    }
+    .lawyer-list-container {
+        margin-bottom: 10px;
+        .add-lawyer-container {
+            text-align: right;
+            margin: 10px 5px;
+            .add-lawyer-btn {
+                background-color: #292734;
+                text-transform: unset;
+                &:disabled {
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+.MuiDialog-paperFullScreen {
+    width: 100% !important;
+}
+.divider{
+    height: 100px;;
+    display:inline-block;
+    }
+    @media only screen and (max-width: 768px) {
+        .MuiBox-root.MuiBox-root-37 {
+        display: none;
+        }
+    }
+    // @media only screen and (min-width: 1024px) {
+    //     .MuiBox-root.MuiBox-root-49{
+    //     display: none;
+    //     }
+    // }

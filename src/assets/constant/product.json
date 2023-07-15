@@ -1,0 +1,322 @@
+{
+    "product": [
+        {
+            "name": "CIVIL / Property",
+            "value": "civil"
+        },
+        {
+            "name": "Personal / Family",
+            "value": "personal"
+        },
+        {
+            "name": "Company / Corporate",
+            "value": "company"
+        },
+        {
+            "name": "Criminal",
+            "value": "criminal"
+        },
+        {
+            "name": "Constitutional",
+            "value": "constitutional"
+        }
+    ],
+    "subProduct": {
+        "civil": {
+            "name": "civil",
+            "value": [
+                {
+                    "name": "Civil",
+                    "value": "civil"
+                },
+                {
+                    "name": "Property ",
+                    "value": "property "
+                },
+                {
+                    "name": "Breach of Contract",
+                    "value": "BreachofContract"
+                },
+                {
+                    "name": "Cheque Bounce",
+                    "value": "ChequeBounce"
+                },
+                {
+                    "name": "Landlord / Tenant",
+                    "value": "LandlordTenant"
+                },
+                {
+                    "name": "Debt recovery",
+                    "value": "Debtrecovery"
+                },
+                {
+                    "name": "Consumer Protection",
+                    "value": "ConsumerProtection"
+                },
+                {
+                    "name": "Others",
+                    "value": "Others"
+                }
+            ]
+        },
+        "personal": {
+            "name": "personal",
+            "value": [
+                {
+                    "name": "Family Dispute, Domestic Violence & Divorse",
+                    "value": "FamilyDispute"
+                },
+                {
+                    "name": "Muslim Personal ",
+                    "value": "MuslimPersonal "
+                },
+                {
+                    "name": "Hindu Personal",
+                    "value": "HinduPersonal"
+                },
+                {
+                    "name": "Christian Personal",
+                    "value": "ChristianPersonal"
+                },
+                {
+                    "name": "Adoption & Child Custody",
+                    "value": "AdoptionChildCustody"
+                },
+                {
+                    "name": "Medical Negligence",
+                    "value": "MedicalNegligence"
+                },
+                {
+                    "name": "Wills & Trusts",
+                    "value": "WillsTrusts"
+                },
+                {
+                    "name": "Motor Accident",
+                    "value": "MotorAccident"
+                },
+                {
+                    "name": "Human & Animal rights",
+                    "value": "HumanAnimalrights"
+                },
+                {
+                    "name": "Insurance",
+                    "value": "Insurance"
+                },
+                {
+                    "name": "Succession Certificate",
+                    "value": "SuccessionCertificate"
+                },
+                {
+                    "name": "Notary & Legal Documentation",
+                    "value": "NotaryLegalDocumentation"
+                },
+                {
+                    "name": "Others",
+                    "value": "Others"
+                }
+
+            ]
+        },
+        "company": {
+            "name": "company",
+            "value": [
+                {
+                    "name": "Intellectual Property",
+                    "value": "IntellectualProperty"
+                },
+                {
+                    "name": "Arbitration",
+                    "value": "Arbitration"
+                },
+                {
+                    "name": "Customs & Central Exercise",
+                    "value": "CustomsCentralExercise"
+                },
+                {
+                    "name": "Startup",
+                    "value": "Startup"
+                },
+                {
+                    "name": "Banking & Finance",
+                    "value": "BankingFinance"
+                },
+                {
+                    "name": "GST",
+                    "value": "GST"
+                },
+                {
+                    "name": "Corporate",
+                    "value": "Corporate"
+                },
+                {
+                    "name": "Company Law and Investment transactions",
+                    "value": "CompanyLawandInvestmenttransactions"
+                },
+                {
+                    "name": "Industrial & Labour",
+                    "value": "IndustrialLabour"
+                },
+                {
+                    "name": "Direct Tax",
+                    "value": "DirectTax"
+                },
+                {
+                    "name": "Indirect Tax",
+                    "value": "IndirectTax"
+                },
+                {
+                    "name": "Bankryptcy/ Insolvency / NCLT / NCLAT",
+                    "value": "BankryptcyInsolvencyNCLTNCLAT"
+                },
+                {
+                    "name": "Environment",
+                    "value": "Environment"
+                },
+                {
+                    "name": "Media & Entertainment",
+                    "value": "MediaEntertainment"
+                },
+                {
+                    "name": "Patent, Trademark & Copyright",
+                    "value": "PatentTrademarkCopyright"
+                },
+                {
+                    "name": "Others",
+                    "value": "Others"
+                }
+            ]
+        },
+        "criminal": {
+            "name": "criminal",
+            "value": [
+                {
+                    "name": "Criminal",
+                    "value": "Criminal"
+                },
+                {
+                    "name": "Cyber Crime",
+                    "value": "CyberCrime"
+                },
+                {
+                    "name": "Others",
+                    "value": "Others"
+                }
+            ]
+        },
+        "constitutional": {
+            "name": "constitutional",
+            "value": [
+                {
+                    "name": "Constitutional",
+                    "value": "Constitutional"
+                },
+                {
+                    "name": "Others",
+                    "value": "Others"
+                }
+            ]
+        }
+    },
+    "courts": [
+        {
+            "name": "ALLAHABAD HIGH COURT",
+            "value": "ALLAHABADHIGHCOURT"
+        },
+        {
+            "name": "HIGH COURT OF PUNJAB AND HARYANA",
+            "value": "HIGH COURT OF PUNJAB AND HARYANA"
+        },
+        {
+            "name": "HIGH COURT OF RAJASTHAN",
+            "value": "HIGH COURT OF RAJASTHAN"
+        },        
+        {
+            "name": "MADRAS HIGH COURT",
+            "value": "MADRAS HIGH COURT"
+        },
+        {
+            "name": "HIGH COURT OF MADHYA PRADESH",
+            "value": "HIGH COURT OF MADHYA PRADESH"
+        },
+        {
+            "name": "HIGH COURT OF BOMBAY",
+            "value": "HIGH COURT OF BOMBAY"
+        },
+        {
+            "name": "HIGH COURT OF KARNATAKA",
+            "value": "HIGH COURT OF KARNATAKA"
+        },
+        {
+            "name": "HIGH COURT FOR STATE OF TELANGANA",
+            "value": "HIGH COURT FOR STATE OF TELANGANA"
+        },
+        {
+            "name": "HIGH COURT OF KERALA",
+            "value": "HIGH COURT OF KERALA"
+        },
+        {
+            "name": "HIGH COURT OF ANDHRA PRADESH",
+            "value": "HIGH COURT OF ANDHRA PRADESH"
+        },
+        {
+            "name": "PATNA HIGH COURT",
+            "value": "PATNA HIGH COURT"
+        },
+        {
+            "name": "ORISSA HIGH COURT",
+            "value": "ORISSA HIGH COURT"
+        },
+        {
+            "name": "HIGH COURT OF GUJARAT",
+            "value": "HIGH COURT OF GUJARAT"
+        },
+        {
+            "name": "HIGH COURT OF JHARKHAND",
+            "value": "HIGH COURT OF JHARKHAND"
+        },
+        {
+            "name": "HIGH COURT OF DELHI",
+            "value": "HIGH COURT OF DELHI"
+        },
+        {
+            "name": "HIGH COURT OF JAMMU AND KASHMIR",
+            "value": "HIGH COURT OF JAMMU AND KASHMIR"
+        },
+        {
+            "name": "HIGH COURT OF CHHATTISGARH",
+            "value": "HIGH COURT OF CHHATTISGARH"
+        },
+        {
+            "name": "HIGH COURT OF HIMACHAL PRADESH",
+            "value": "HIGH COURT OF HIMACHAL PRADESH"
+        },
+        {
+            "name": "GAUHATI HIGH COURT",
+            "value": "GAUHATI HIGH COURT"
+        },
+        {
+            "name": "HIGH COURT OF UTTARAKHAND",
+            "value": "HIGH COURT OF UTTARAKHAND"
+        },
+        {
+            "name": "CALCUTTA HIGH COURT",
+            "value": "CALCUTTA HIGH COURT"
+        },
+        {
+            "name": "HIGH COURT OF MANIPUR",
+            "value": "HIGH COURT OF MANIPUR"
+        },
+        {
+            "name": "HIGH COURT OF TRIPURA",
+            "value": "HIGH COURT OF TRIPURA"
+        },
+        {
+            "name": "HIGH COURT OF MEGHALAYA",
+            "value": "HIGH COURT OF MEGHALAYA"
+        },
+        {
+            "name": "HIGH COURT OF SIKKIM",
+            "value": "HIGH COURT OF SIKKIM"
+        }        
+    ]
+}

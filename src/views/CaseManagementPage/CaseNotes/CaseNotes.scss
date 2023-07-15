@@ -1,0 +1,35 @@
+.addnotes-button{
+        justify-content: flex-end;
+    
+}
+.buttonstyles {
+    height: 40px;
+    font-size: 0.975rem;
+    text-transform: none;
+    color: black;
+    background-color: #FFC602;
+   
+}
+.select-input-1 {
+    select {
+        padding: 5px !important;
+        width: 535px;
+        height: 20px;
+    }    
+}
+
+    .addnotes {
+        height: 40px;
+        font-size: 0.975rem;
+        text-transform: none;
+        color: #FFC602;
+        background-color: #292734;
+        &:hover {
+            color: #FFC602;
+            background-color: #000;
+        }
+        span {
+            color: #FFC602;
+        }
+    }
+

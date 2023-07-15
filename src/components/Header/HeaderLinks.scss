@@ -1,0 +1,202 @@
+.header-menu {
+    // float: right;
+    
+    button {
+        margin-left: 20px;
+        text-transform: unset;
+    }
+    .login-btn {
+        justify-content: left;
+
+        height: 35px;
+        //width: 135px;
+        width: fit-content;
+        background-color: #FFC602;
+        border-radius: 4px;
+        box-shadow: none;
+        margin-bottom: 5px;
+        span {
+            color: #292734;
+            // font-family: Titillium;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 24px;
+        }
+        &:hover {
+            background-color: #f0bc0a;
+            border-radius: unset;
+            box-shadow: none;
+        }
+    }
+    // @media only screen and (max-width: 600px) {
+    // .login-btn {
+    //     display: block;
+    //     height: 35px;
+    //     //width: 135px;
+    //     width: fit-content;
+    //     background-color: #FFC602;
+    //     border-radius: 4px;
+    //     box-shadow: none;
+    //     span {
+    //         color: #292734;
+    //         // font-family: Titillium;
+    //         font-size: 16px;
+    //         font-weight: 600;
+    //         letter-spacing: 0;
+    //         line-height: 24px;
+    //     }
+    //     &:hover {
+    //         background-color: #f0bc0a;
+    //         border-radius: unset;
+    //         box-shadow: none;
+    //     }
+    // }
+
+
+    // }
+    .btn-link {
+        justify-content: left;
+        padding: 10px;
+        // height: 20px;
+        color: #292734;
+        font-family: Titillium;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-decoration: none;
+        a {
+            color: #292734;
+        }
+    }
+    // .lbl {
+    //     height: 20px;
+    //     color: #292734;
+    //     font-family: Titillium;
+    //     font-size: 16px;
+    //     font-weight: 600;
+    //     letter-spacing: 0;
+    //     line-height: 30px;
+    //     text-decoration: none;
+    //     a {
+    //         color: #292734;
+    //     }
+    // }
+    .lbl {
+        height: 20px;
+        color: #414043;
+        // font-family: Titillium;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 30px;
+        padding: 0px;
+        text-decoration: none;
+        a {
+            color: #292734;
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 968px) and  (max-width: 2560px) {
+    .MuiToolbar-root .MuiBox-root:last-of-type{
+            display: none;
+        }
+}
+@media only screen and (min-width: 420px) and  (max-width: 960px) {
+    .MuiToolbar-root {
+        .MuiBox-root{
+            .header-menu{
+                display: none;
+            }
+        }
+    }
+
+    .MuiPaper-root.MuiDrawer-paper{
+            .header-menu{
+                display: block;
+            }
+    }
+
+}
+
+@media only screen and (min-width: 320px) and  (max-width: 960px) {
+    .MuiPaper-root.MuiDrawer-paper {
+        .header-menu{
+            display: grid;
+        }
+    }
+    .MuiPaper-root.MuiDrawer-paper {
+        .header-menu{
+            .MuiButtonBase-root.MuiIconButton-root{
+                .MuiIconButton-label:first-of-type{
+                    justify-content: left !important;
+                }
+            }
+        }
+    }
+    .MuiPaper-root.MuiDrawer-paper {
+        .header-menu{
+              .lbl{
+margin-left: 30px;                }
+            }
+      
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .MuiGrid-root.MuiGrid-container.MuiGrid-align-items-xs-center.MuiGrid-grid-xs-10{
+            margin-left: 86px;
+          }
+}
+
+
+
+
+
+    // @media only screen and (max-width: 768px) {
+    //     .MuiBox-root.MuiBox-root-34
+    //     {
+    //         display: none;
+    //     }
+    //     .header-menu .btn-link
+    //     {
+    //         display: block;
+    //         height: 35px;
+    //     }
+    //     .header-menu .login-btn
+    //     {
+    //         margin: 10px 0px 10px 25px;
+    //         display: block;
+    //     } 
+    //     .makeStyles-collapse-159{
+    //         display: none!important;
+    //     }
+        
+        
+
+    // }
+    // @media only screen and (min-width:769px) {
+    //     .MuiBox-root.MuiBox-root-46
+    //     {
+    //         display: none !important;
+    //     }
+        
+    // }
+    
+    // @media only screen and (min-width:1024px) {
+    //     .MuiButtonBase-root.MuiIconButton-root
+    //     {
+    //         display: none !important;
+    //     }
+    //     .MuiBox-root.MuiBox-root-112{
+    //         display: none!important;
+
+    //     }
+    //     .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary{
+    //         display:inline-block!important;
+    //     }
+    // }

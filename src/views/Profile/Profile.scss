@@ -1,0 +1,219 @@
+.profile-head-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    margin-right: 100px;
+    .profile-name-text {
+        margin-left: -1.3rem;
+    }
+}
+
+// @media only screen and (min-width: 1024px) {
+//     .MuiBox-root.MuiBox-root-47{
+//     display: none;
+//     }
+//     .MuiBox-root.MuiBox-root-51{
+//         // margin-top: 80px;
+//         display: block;
+//     }
+//     // .MuiBox-root.MuiBox-root-49{
+//     //     display: blok;
+//     // }
+
+// }
+// @media only screen and (min-width: 768px) and (max-width: 960px) {
+//     .MuiBox-root.MuiBox-root-35{
+//     display: none;
+//     }
+//     .makeStyles-appResponsive-19 .header-menu span{
+//         // display: inline-grid;
+//         // float: left;
+//         display: block;
+//         // margin: 0px;
+//     }
+//     .makeStyles-appResponsive-19 .header-menu span label{
+      
+//         margin-left: 30px;
+//     } 
+//     .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary{
+//         padding-top: 20px;
+//     }
+//     .MuiBadge-badge.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-colorSecondary{
+//         margin-top: 5;
+//     }
+// }
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    // .MuiBox-root.MuiBox-root-35{
+    // display: none;
+    // }
+    // .makeStyles-appResponsive-19 .header-menu span{
+    //     display: block;
+    // }
+    // .makeStyles-appResponsive-19 .header-menu span label{
+      
+    //     margin-left: 30px;
+    // } 
+    body{
+
+      overflow-x: scroll!important;
+      overflow-y:scroll!important;
+      // flex-wrap: wrap!important;
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd{
+      width: 14rem!important;
+    }
+    .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary{
+        padding-top: 20px;
+    }
+    .MuiBadge-badge.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-colorSecondary{
+        margin-top: 5;
+    }
+    .MuiInputBase-formControl{
+        width:6rem;
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.Mui-disabled.Mui-disabled.MuiInputBase-formControl{
+        width: 18rem!important;
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.my-1.Mui-disabled.Mui-disabled{
+      width: 18rem!important;
+    }
+    .MMuiInputBase-root.MuiOutlinedInput-root.my-3.Mui-disabled.Mui-disabled{
+        width: 25rem;
+      }
+    .MuiInputBase-root.MuiOutlinedInput-root.my-3.Mui-disabled.Mui-disabled{
+      .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.Mui-disabled.Mui-disabled.Mui-disabled{
+        width:15rem;
+      }
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.my-3.Mui-disabled.Mui-disabled{
+        .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.Mui-disabled.Mui-disabled.Mui-disabled{
+            width:17rem!important; 
+        }
+    }
+    .MuiFormControl-root.MuiTextField-root.my-4{
+      .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl{
+        width: 17rem;
+      }
+        
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.my-1{
+    .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input{
+          width:14rem!important; 
+      }
+  }
+  .MuiInputBase-root.MuiOutlinedInput-root.my-3{
+    width:17rem!important;
+  #mui-component-select-state{
+     
+  }
+}
+.MuiInputBase-root.MuiOutlinedInput-root.my-3.Mui-disabled.Mui-disabled{
+  width:18rem!important;
+  #mui-component-select-state{
+     
+  }
+
+}
+.MuiFormLabel-root.MuiInputLabel-root.mb-1.MuiInputLabel-animated{
+  margin-top: 7px!important;
+}
+
+  
+  // .MuiFormLabel-root.MuiInputLabel-root.mb-1.MuiInputLabel-animated,.MuiInputBase-root.MuiOutlinedInput-root.my-3{
+  //   .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input{
+  //        padding-right: 20px!important;
+  //   }
+
+    
+
+  // }
+
+    
+     
+    // .MuiInputBase-root.MuiOutlinedInput-root.my-3{
+    //     width: 2rem;
+    // }
+} 
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .MuiInputBase-root.MuiOutlinedInput-root.my-1.Mui-disabled.Mui-disabled{
+        width: 11.5rem;
+      }
+      .MuiInputBase-root .MuiOutlinedInput-root .my-3 .Mui-disabled .Mui-disabled{
+        width: 11.5rem;
+      }
+      .MuiInputBase-root.MuiOutlinedInput-root.my-3.Mui-disabled.Mui-disabled{
+        .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.Mui-disabled.Mui-disabled.Mui-disabled{
+            width:500px!important; 
+        }
+    }
+    body{
+
+      overflow-x: scroll!important;
+      overflow-y:scroll!important;
+      // flex-wrap: wrap!important;
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.my-1.Mui-disabled.Mui-disabled{
+        width: 34rem!important;
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd{
+      width: 35rem!important;
+    }
+    .MuiInputBase-root.MuiOutlinedInput-root.my-1{
+      .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input{
+        width:31rem;
+        #mui-component-select-gender{
+
+        }
+      }
+
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .container{
+    padding-left: 55px!important;
+  }
+  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd{
+    width: 17rem!important;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd{
+  width: 17rem;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+  body{
+
+    overflow-x: scroll!important;
+    overflow-y:scroll!important;
+    // flex-wrap: wrap!important;
+  }
+    .MuiInputBase-root.MuiOutlinedInput-root.my-1.Mui-disabled.Mui-disabled{
+        width: 34rem;
+      }
+      .MuiInputBase-root .MuiOutlinedInput-root .my-3 .Mui-disabled .Mui-disabled{
+        width: 34rem;
+      }
+      .MuiInputBase-root.MuiOutlinedInput-root.my-3.Mui-disabled.Mui-disabled{
+        .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.Mui-disabled.Mui-disabled.Mui-disabled{
+            width:500px!important; 
+        }
+    }
+ .MuiInputBase-root.MuiOutlinedInput-root.Mui-disabled.Mui-disabled.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd{
+    width:34rem!important;
+ }
+ .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd{
+  width:28rem!important;
+ }
+ .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input{
+    width:31rem!important;
+ }
+}
+@media only screen and (min-width:1370px) and (max-width:1605px){
+  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd{
+    width:35rem!important;
+   }
+}
+

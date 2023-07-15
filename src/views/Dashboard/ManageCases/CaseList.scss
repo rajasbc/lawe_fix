@@ -1,0 +1,126 @@
+.case-card-container {
+    width: 100%;
+    margin: 10px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    .location-text {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .title-text {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .status-grid {
+        margin: 0;
+        text-align: right;
+        width: 100%;
+        .status-req {
+            text-transform:unset;
+            font-size: 1.2rem;
+        }
+        .status-req span{
+                color: red;
+                margin-right: 5px;
+        }
+        .status-req-text{
+            text-transform:unset;
+            font-size: .75rem;
+        }
+        .status-pro{
+            text-transform:unset;
+            font-size: .75rem;
+        }
+        .status-waiting{
+            text-transform:unset;
+            font-size: .75rem;
+        }
+        .status-waiting span{
+            text-transform:unset;
+            font-size: 1.2rem;
+        }
+        .status-accept{
+            color: green;
+            text-transform:unset;
+            font-size: 1rem;
+        }
+    }
+    .text-field{
+        margin-top: 31px;;
+    }
+    .action-container {
+        padding: 10px 15px;
+        h6 {
+            text-transform: unset;
+            font-size: 1.1rem;
+            width:100%;
+        }
+        p {
+            width: 100%;
+        }
+        .detail-container{
+            .detail-btn {
+                opacity: 0.6;
+                border-radius: 8px;
+                background-color:#FFC602;
+                text-transform: unset;
+                width: 130px;
+                min-height: 40px;
+                &:hover {
+                    color: #000;
+                    background-color: #FFC602;
+                }
+                span {
+                    color: #000;
+                    letter-spacing: 0;
+                    line-height: 24px;
+                }
+            }
+        }
+        .reassign-btn {
+            opacity: 0.6;
+            border-radius: 8px;
+            background-color: #FFC602;
+            text-transform: unset;
+            margin-top: 16px;
+            width: 130px;
+            min-height: 40px;
+            &:hover {
+                color: #000;
+                background-color: #FFC602;
+            }
+            span {
+                color: #000;
+                letter-spacing: 0;
+                line-height: 24px;
+            }
+        }
+        .form-select-input{
+            width:100%;
+            .form-text-field {
+                flex: 1;
+                margin-right: 10px;
+                width:100%;
+            }
+            .select-lable {
+                line-height: 0.2 !important;
+                &.MuiInputLabel-outlined.MuiInputLabel-shrink {
+                    transform: translate(14px, -3px) scale(0.75) !important;
+                }
+            }
+            .select-input-field {
+                margin-right: 10px;
+                select {
+                    padding: 12px !important;
+                }    
+              }
+        }
+        .preview-container{
+            display: flex;
+            .img-view{
+                margin-right: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+

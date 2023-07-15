@@ -1,0 +1,100 @@
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+@import "assets/scss/core/variables";
+@import "assets/scss/core/mixins";
+@import "assets/scss/core/fileupload";
+@import "assets/scss/core/sort-icon";
+@import "./assets/scss/core/react-crop";
+@import "assets/scss/core/slider";
+@import "assets/scss/core/common";
+
+ //Core Plugins
+@import "assets/scss/core/misc";
+@import "assets/scss/plugins/plugin-nouislider";
+@import "assets/scss/plugins/plugin-react-datetime";
+@import "assets/scss/plugins/plugin-react-image-gallery";
+@import "assets/scss/plugins/plugin-react-slick";
+@import "assets/scss/plugins/plugin-react-tagsinput";
+
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css'; 
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css'; 
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css'; 
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css'; 
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css'; 
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css'; 
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css'; 
+@import '../node_modules/@syncfusion/ej2-schedule/styles/material.css'; 
+@import 'https://unpkg.com/formiojs@latest/dist/formio.full.min.css';
+
+.MuiDialog-paperFullScreen {
+    width: 100% !important;
+}
+.button-text, .signup-button {
+    button {
+        border-radius: 8px;
+        background-color: #292734;
+        color: #FFFFFF;
+        font-size: 1rem;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-align: center;
+        width: 150px;
+        border-color: #000;
+        &:hover {
+            background-color: #000;
+            color: #FFF;
+            border-color: #000 !important;
+        }
+        &:active {
+            background-color: #000 !important;
+            color: #FFF !important;
+            border-color: #000 !important;
+            box-shadow: none !important;
+        }
+        &:focus {
+            background-color: #000 !important;
+            color: #FFF !important;
+            border-color: #000 !important;
+            box-shadow: none !important;
+        }
+        &:disabled {
+            background-color: #000 !important;
+            color: #FFF !important;
+            border-color: #000 !important;
+            box-shadow: none !important;
+        }
+    }
+    .has-error {
+        color: #eb4034;
+        margin-top: 10px;
+    }
+    .button-icon-right {
+        display: none;
+    }
+    .choices__button {
+        border: none;
+        background-color: unset !important;
+    }
+    .signup-button {
+        margin-top: 20px;
+    }
+}
+.skills-table {
+    tr {
+        td {
+            width: 25%;
+        }
+    }
+}
+.formio-button-remove-row:after {
+    content: 'Delete';
+}
+.backdrop {
+    z-index: 100 !important;
+    color: #fff !important;
+}
+.progressbar {
+    color: #FFC602 !important;
+}

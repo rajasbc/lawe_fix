@@ -1,0 +1,177 @@
+.judgement-title-container {
+    margin: 72px 30px 0 30px;
+    h6 {
+        text-transform: unset;
+        color: #FFC602;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+}
+.judgement-container {    
+    margin-bottom: 30px;
+    .WAMuiChipInput-chipContainer-44.WAMuiChipInput-labeled-48.WAMuiChipInput-chipContainer-44.WAMuiChipInput-standard-46 {
+        margin-top: 5px;
+    }
+    .MuiCardContent-root {
+        padding: 10px;
+    }
+
+    .judgement-content {
+        padding: 15px;
+        max-height: 200px;
+        overflow: hidden;
+    }
+    .judgement-box {
+        margin: 15px 30px;
+    }
+    .view-more {
+        padding: 10px 0;
+    }
+}
+.no-result-fount {
+    margin-top: 72px;
+    padding: 1rem;
+    min-height: 231px;
+    justify-content: center;
+    h2 {
+        margin: 0;
+    }
+    svg {
+        font-size: 2rem;
+    }
+}
+
+.button-padding {
+    margin-right: 10px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    // .makeStyles-collapse-29, .makeStyles-collapse-31{
+    //     display: none;
+    // }
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text.login-btn,
+    .MuiButtonBase-root.MuiButton-root.MuiButton-contained.login-btn{
+        width: 13rem;
+    }
+   .MuiButton-label{
+        text-align: left;
+  }
+//   .css-11lq3yg-MuiGrid-root{
+//     display: flex!important;
+//     width:100%;
+//     flex-direction: column-reverse!important;
+
+   
+//  }
+//  .css-11lq3yg-MuiGrid-root{
+//    .card.MuiPaper-elevation1{
+//        width:580%!important;
+//        margin-left: 12px!important;
+//        // margin:6px 3px 3px 4px;
+//        height: 256px;
+
+//    }
+//  }
+.no-result-fount {
+  margin-top: 15px!important;
+  padding: 1rem;
+  min-height: 75px!important;
+  justify-content: center;
+}
+.pdfcss{
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  margin-bottom: 1rem !important;
+}
+.cssjudge{
+  max-width: 90% !important;
+  // margin-left: 5px !important;
+}
+ .react-pdf__message--no-data{
+   height: 34px!important;
+   text-align-last: end!important;
+   padding-top: 2px!important;
+ }
+ .css-1qpzhgb-MuiGrid-root{
+   overflow-y: scroll!important;
+   max-height: 1000px!important;
+   max-width: 98%!important;
+ }
+
+  }
+  @media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    .MuiButtonBase-root.MuiButton-root.MuiButton-text.login-btn,
+    .MuiButtonBase-root.MuiButton-root.MuiButton-contained.login-btn{
+        width: 13rem;
+    }
+   .MuiButton-label{
+        text-align: left;
+  }
+  // .css-11lq3yg-MuiGrid-root{
+  //    display: flex!important;
+  //    width:100%;
+  //    flex-direction: column-reverse!important;
+  //    .card.MuiPaper-elevation1{
+  //       width:556%!important;
+  //       margin-left: 12px!important;
+  //       // margin:6px 3px 3px 4px;
+  //       height: 256px;
+
+  //   }
+
+    
+  // }
+  .no-result-fount {
+    margin-top: 15px!important;
+    padding: 1rem;
+    min-height: 130px!important;
+    justify-content: center;
+}
+
+  .pdfcss{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    margin-bottom: 1rem !important;
+  }
+  .cssjudge{
+    max-width: 90% !important;
+    // margin-left: 5px !important;
+  }
+//   .css-11lq3yg-MuiGrid-root{
+//     .card.MuiPaper-elevation1{
+//         width:556%!important;
+//         margin-left: 12px!important;
+//         // margin:6px 3px 3px 4px;
+//         height: 256px;
+
+//     }
+//   }
+  .react-pdf__message--no-data{
+    height: 34px!important;
+    text-align-last: end!important;
+    padding-top: 2px!important;
+  }
+  .css-1qpzhgb-MuiGrid-root{
+    overflow-y: scroll!important;
+    max-height: 1000px!important;
+    max-width: 98%!important;
+  }
+  }
+  @media only screen and (min-width: 968px) {
+    .pdfcss{
+     
+      margin-bottom: 1rem !important;
+    }
+    
+
+  }
+
+ 
+
+//   @media only screen and (min-width: 960px) and (max-width: 2560px) {
+//     .MuiBox-root.MuiBox-root-44, .MuiBox-root.MuiBox-root-66{
+//        display: none;
+//     }
+//   }

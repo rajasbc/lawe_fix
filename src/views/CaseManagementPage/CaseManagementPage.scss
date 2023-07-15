@@ -1,0 +1,531 @@
+.casemanagement-container-first {
+  margin-top: 62px;
+  background-color: #292734;
+  .cm-second{
+      h5 {
+      text-align: left;
+      cursor: pointer;
+      }
+  }
+  h5 {
+    text-transform: unset;
+    color: #ffffff;
+    font-family: Titillium;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 37px;
+   
+  }
+
+  h6 {
+    text-transform: unset;
+    color: #ffc602;
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+  }
+
+}
+.casemanagement-card-container{
+.tab-container{
+  overflow-y: scroll !important;
+  overflow-x: scroll !important;
+}
+}
+
+.casemanagement-container-second {
+  .casemanagement-card-container {
+    // margin: 20px 15px;
+    // border: 2px solid rgba(0, 0, 0, 0.12);
+    .user-info-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px;
+      .name-title-container {
+        display:flex;
+        box-shadow: unset;
+        padding: 0 10px;
+        .content-container{
+         color:#292734;
+         margin-left:5rem;
+         .title{
+           margin-left: 2px;
+         }
+        }
+        .name {
+          color: #292734;
+          font-weight: 500;
+        }
+        .experience {
+          color: #666464;
+          font-family: "Titillium";
+          font-size: 0.975rem;
+          font-weight: 300;
+          letter-spacing: 0;
+          line-height: 24px;
+          text-transform: unset;
+        }
+      }
+      .btn-profile {
+        height: 32px;
+        font-size: 0.975rem;
+        text-transform: none;
+        color: #FFC602;
+        background-color: #292734;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        font-weight: bold;
+        &:hover {
+          color: #FFC602;
+        background-color: #292734;
+        }
+        span{
+          color: #FFC602;
+        }
+      }
+    }
+    .tab-container{
+      color: #FFC602;
+      background-color: #292734;
+     
+      box-shadow: none !important;
+      border-radius: 0%;
+      button{
+        text-transform: unset;
+        font-size: 1rem;
+      }
+    }
+    .case-info-container {
+      padding: 0 50px;
+      padding-top: 2rem;
+      .case-info-sub-container {
+        display: flex;
+        align-items: unset;
+        padding: 5px 10px;
+        .label {
+          text-transform: unset;
+          text-align: right;
+          flex: 1;
+          padding: 0 10px;
+          color: #666464;
+          font-family: Titillium;
+          font-size: 0.875rem;
+          font-weight: bold;
+          letter-spacing: 0;
+          line-height: 29px;
+        }
+        .input-field {
+          flex: 3;
+          text-transform: unset;
+          text-align: left;
+          .MuiSelect-select {
+            padding: 12px !important;
+          }
+        }
+        .picker-container {
+          display: flex;
+          align-items: unset;
+          justify-content: space-between;
+          h6 {
+            font-size: 1.2rem;
+            font-weight: bold;
+          }
+          .MuiFormControl-marginNormal {
+            margin-top: 0;
+            .Mui-disabled {
+              color: #666464;
+              &:before {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+              }
+            }
+          }
+          p {
+            text-align: left;
+            padding-left: 10px;
+          }
+        }
+        .file-upload-container {
+          .MuiDropzoneArea-textContainer {
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+        .description-container {
+          flex: 3;
+          .description-input-field {
+            text-transform: unset;
+            text-align: left;
+          }
+        }
+        .notes-container {
+          flex: 3;
+          padding: 10px;
+          .notes-field {
+            width: 100%;
+          }
+        }
+        .note-info {
+          h6 {
+            color: #524e4e;
+            font-size: 0.875rem;
+          }
+        }
+        .lawyer-file-container {
+          .preview-container {
+            display: flex;
+            .img-view {
+              height: 75px;
+              width: 75px;
+              margin-right: 5px;
+              border: 1px solid #979797;
+              background-color: #4caf50;
+              cursor: pointer;
+            }
+          }
+        }
+        .lawyer-acknowledge-container {
+          display: flex;
+          align-items: center;
+          h6 {
+            text-transform: unset;
+            font-size: 1rem;
+            padding-right: 5px;
+          }
+        }
+        .stage-container {
+          display: flex;
+          margin: 1rem 0;
+          .stage-box-1 {
+            flex: 2;
+            margin-right: 1rem;
+            .stage-check-field {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin: 0.5rem 0;
+              h6 {
+                min-width: 11rem;
+                font-size: 1rem;
+                text-transform: unset;
+                margin-right: 2rem;
+              }
+              .in-progress-stage {
+                Button {
+                  height: 40px;
+                  font-size: 0.875rem;
+                  text-transform: none;
+                  color: #292734;
+                  background-color: #cef8c9;
+                  min-width: 11rem;
+                  &:hover {
+                    color: #292734;
+                    background-color: #cef8c9;
+                  }
+                  span {
+                    color: #292734;
+                  }
+                }
+              }
+              .feature-stage {
+                Button {
+                  height: 40px;
+                  font-size: 0.875rem;
+                  text-transform: none;
+                  color: #292734;
+                  background-color: #efe2b5;
+                  min-width: 11rem;
+                  &:hover {
+                    color: #292734;
+                    background-color: #efe2b5;
+                  }
+                  span {
+                    color: #292734;
+                  }
+                }
+              }
+              .completed-stage {
+                Button {
+                  height: 40px;
+                  font-size: 0.875rem;
+                  text-transform: none;
+                  color: #292734;
+                  background-color: #ffc9cb;
+                  min-width: 11rem;
+                  &:hover {
+                    color: #292734;
+                    background-color: #ffc9cb;
+                  }
+                  span {
+                    color: #292734;
+                  }
+                }
+              }
+              .approve-closure {
+                margin-left: 1rem;
+                Button {
+                  height: 40px;
+                  font-size: 0.875rem;
+                  text-transform: none;
+                  color: #292734;
+                  background-color: #ffc602;
+                  min-width: 11rem;
+                  &:hover {
+                    color: #292734;
+                    background-color: #ffc602;
+                  }
+                  &:disabled {
+                    color: rgba(0, 0, 0, 0.26);
+                    box-shadow: none;
+                    background-color: rgba(0, 0, 0, 0.12);
+                    pointer-events: all;
+                    cursor: not-allowed;
+                  }
+                  span {
+                    color: #292734;
+                  }
+                }
+              }
+              .stage-input {
+                max-width: 10rem;
+                margin-right: 1.3rem;
+              }
+            }
+            .stage-proposed-field {
+              justify-content: unset;
+            }
+          }
+          .stage-box-2 {
+            flex: 1;
+            background-color: #d8d8d8;
+            padding: 1rem;
+            h6 {
+              text-transform: unset;
+            }
+          }
+        }
+      }
+      .fees-info {
+        padding: 1rem 0;
+      }
+      .first-notes-container {
+        margin-bottom: 2rem;
+      }
+      .stage-card-container {
+        padding: 1rem 0;
+      }
+    }
+    .acknowldge-contanier {
+      box-shadow: unset;
+      padding: 20px 50px;
+      .ack-titile {
+        padding-bottom: 10px;
+      }
+      h6 {
+        text-transform: unset;
+        padding: 0;
+        margin: 0;
+        line-height: 1.5rem;
+        color: #524e4e;
+        font-size: 0.9rem;
+      }
+    }
+    .tab-child{
+      min-width: 145px !important;
+    }
+  }
+}
+.button-container,
+.send-message-container {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  justify-content: flex-end;
+  Button {
+    height: 40px;
+    font-size: 0.875rem;
+    text-transform: none;
+    color: #fff;
+    background-color: #292734;
+    &:hover {
+      color: #fff;
+      background-color: #000;
+    }
+    span {
+      color: #fff;
+    }
+  }
+}
+.papertimeline {
+  padding: "6px 6px";
+}
+.textfield {
+  width: 100%,
+}
+body{
+  overflow-x: scroll !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .MuiDialogActions-spacing > :not(:first-child){
+    margin-left: 0px !important;
+  }
+  .stageCheck {
+    display: block !important;
+  }
+  .caseInfoSubContainer{
+    display: block !important;
+    // align-items: unset;
+    padding: 5px 10px;
+    width: "100%";
+  }
+  .stageCheckField{
+    // display: flex;
+    align-items: center;
+  justify-content: unset;
+    margin: "0.5rem 0";
+  }
+    .casemanagement-container-second .casemanagement-card-container .user-info-container .name-title-container  {
+    // color: #292734;
+    margin-left: 2rem;
+    display: block !important;
+}
+.name-title-container .content-container{
+  margin-left: 0rem !important;
+  margin-top: 1rem;
+}
+div.react-pdf__Document:has(div .MuiCardContent-root.card-content){
+ display: block !important; 
+}
+.linked_case{
+width: 22rem;
+// padding: 20px;
+}
+.textareastyle{
+  width: 200px;
+}
+  .MuiFormControl-root{
+    .select-input-1{
+      width: 14.5rem!important;
+
+    }
+
+  }
+  
+  .textareastyle{
+    width: 248px!important;
+  }
+
+}
+.casemanagement-card-container{
+.MuiGrid-item.MuiGrid-grid-xs-3{
+  .MuiTypography-h6{
+    margin-top: 0!important;
+
+  }
+
+}
+}
+// div .MuiPaper-root .sc-aXZVg:has(div.react-pdf__Document){
+//   display: none; 
+// }
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .textareastyle{
+    width: 200px!important;
+  }
+}
+@media only screen and (min-width: 620px) and (max-width: 768px) {
+  .textareastyle{
+    width: 300px;
+  }
+  .stageCheck {
+    display: flex !important;
+    align-items: center;
+    justify-content: unset;
+    // margin: "0.5rem 0",
+  }
+  .caseInfoSubContainer{
+    display: block !important;
+    align-items: unset;
+    padding: 5px 10px;
+    width: "100%";
+  }
+  .casemanagement-container-second  {  
+    .casemanagement-card-container{
+      .user-info-container
+      .name-title-container{
+      .content-container{
+        margin-left : 1rem;      
+      }
+    }}
+    .user-info-container {
+      .name-title-container {
+        display: block !important;
+      }
+    }
+    .name-title-container{
+      .MuiAvatar-circular{
+        margin-bottom: 30px;
+      }
+    }
+
+}
+.casemanagement-container-second.casemanagement-card-container.user-info-container{
+  justify-content: center !important;
+}
+
+.inputStageField{
+  width: 70% !important;
+  flex: 4;
+  text-transform: unset;
+  text-align: left;
+}
+.stageCheckField{
+  display: flex;
+  align-items: center;
+justify-content: unset;
+  margin: "0.5rem 0";
+}
+.inputStageField{
+  width: 38rem !important;
+  flex: 4;
+  text-transform: unset;
+  text-align: left;
+}
+.linked_case{
+  width: 35rem;
+  // padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .textareastyle{
+    width: 500px;
+  }
+  .stageCheck {
+    display: flex !important;
+  }
+  .caseInfoSubContainer{
+    display: flex !important;
+    align-items: unset;
+    padding: 5px 10px;
+    width: "100%";
+  }
+  .inputStageField{
+  width: "80%";
+  flex: 4;
+  text-transform: unset;
+  text-align: left;
+}
+.stageCheckField{
+  display: flex;
+  align-items: center;
+justify-content: unset;
+  margin: "0.5rem 0";
+}
+.linked_case{
+  width: 40rem;
+  // padding: 20px;
+  }
+}
+

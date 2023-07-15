@@ -1,0 +1,166 @@
+.checkbox-flex {
+  display: flex;
+}
+
+.quote-imgs-thumbs {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin: 1.5rem 0;
+  padding: 0.75rem;
+}
+
+.quote-imgs-thumbs--hidden {
+  display: none;
+}
+
+.img-preview-thumb {
+  background: #fff;
+  border: 1px solid #777;
+  border-radius: 0.25rem;
+  box-shadow: 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.12);
+  margin-right: 1rem;
+  max-width: 140px;
+  padding: 0.25rem;
+}
+
+.table-title {
+  color: #3C4858;
+  margin-top: .625rem;
+  min-height: auto;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+}
+
+.no_data_modal {
+  text-align: center;
+}
+
+/* .MuiDialog-paperWidthSm {
+  max-width: initial !important;
+  width: auto !important;
+} */
+
+.edit-profile {
+  width: 1000px !important;
+}
+
+.fileinput .thumbnail.img-circle {
+  max-width: initial !important;
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.edit-profile {
+  padding-top: 80px;
+}
+
+// .dashboard-table{
+//   height:400px
+// }
+.e-schedule-dialog-container {
+  z-index: 1000 !important;
+}
+
+.e-search-icon {
+  display: none !important;
+}
+
+.calander-dropdown {
+  .e-input-group {
+    border: none !important;
+  }
+}
+
+.payment-box {
+  .amt-status {
+    color: green;
+
+  }
+}
+
+.service-modal {
+  width: 600px
+}
+
+.card:hover {
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.slick-initialized .slick-slide {
+  width: min-content !important;
+}
+
+.S_img {
+  display: inline-block;
+  margin-left: -4px;
+}
+
+.S_img img {
+  width: 100%;
+  height: auto;
+}
+
+body .carousel-indicators li {
+  background-color: red;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+  background-color: red;
+}
+
+body .slider_padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.table_Dropdown::after {
+  display: none !important
+}
+
+button {
+  outline: none !important
+}
+
+.crop-modal {
+  z-index: 2000 !important;
+}
+
+.backdrop {
+  z-index: '100';
+  color: '#fff',
+}
+
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment {
+  width: 100% !important;
+}
+
+.dashboard-top {
+  margin: 0px 30px 30px 30px !important;
+  box-shadow: none !important;
+}
+
+.cartItem {
+  font-size: 17px;
+  padding: 0px;
+  font-weight: 900;
+  /* margin: -14px; */
+  /* color: #ff0000; */
+  margin: 0px 6px;
+  border-radius: 10px;
+  color: white;
+}
+
+.no-search {
+  width: 100%;
+
+  h3 {
+    text-align: center;
+    padding: 20px;
+  }
+}

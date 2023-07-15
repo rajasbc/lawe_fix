@@ -1,0 +1,30 @@
+.sort-icon {
+    margin-top: -3px;
+    margin-bottom: -3px;
+
+    .sort-icon__up-arrow {
+        font-size: 15px;
+        margin-left: 0.36rem !important;
+        margin-bottom: -0.295em;
+        @extend .text-primary;
+    }
+
+    .sort-icon__down-arrow {
+        font-size: 15px;
+        margin-left: 0.36rem !important;
+        margin-top: -0.295em;
+        @extend .text-primary;
+    }
+
+    &.sort-icon--asc {
+        .sort-icon__up-arrow {
+            @extend .text-muted;
+        }
+    }
+
+    &.sort-icon--desc {
+        .sort-icon__down-arrow {
+            @extend .text-muted;
+        }
+    }
+}

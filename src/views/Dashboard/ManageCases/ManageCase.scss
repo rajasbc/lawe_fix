@@ -1,0 +1,44 @@
+.lawfirm-dashboard-container {
+    
+    .WAMuiChipInput-chipContainer-44.WAMuiChipInput-labeled-48.WAMuiChipInput-chipContainer-44.WAMuiChipInput-standard-46 {
+        margin-top: 5px;
+    }
+    .MuiCardContent-root {
+        padding: 10px;
+    }
+    .button-loader {
+        text-align: center;
+    }
+}
+.lawfirm-dashboard-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.lawfirm-dashboard-container::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.lawfirm-dashboard-container::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+.no-result-fount {
+    margin-top: 72px;
+    padding: 1rem;
+    min-height: 231px;
+    justify-content: center;
+    h2 {
+        margin: 0;
+    }
+    svg {
+        font-size: 2rem;
+    }
+}
+.drawer-content {
+    flex-grow: 1;
+}

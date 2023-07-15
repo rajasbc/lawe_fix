@@ -1,0 +1,164 @@
+{
+    "state": [
+        {
+            "name": "Andra Pradesh",
+            "value": "AndraPradesh"
+        },
+        {
+            "name": "Arunachal Pradesh",
+            "value": "ArunachalPradesh"
+        },
+        {
+            "name": "Assam",
+            "value": "Assam"
+        },
+        {
+            "name": "Bihar",
+            "value": "Bihar"
+        },
+        {
+            "name": "Chhattisgarh",
+            "value": "Chhattisgarh"
+        },
+        {
+            "name": "Goa",
+            "value": "Goa"
+        }
+    ],
+    "city": {
+        "AndraPradesh": {
+            "name": "AndraPradesh",
+            "value": [
+                {
+                    "name": "Anantapur",
+                    "value": "Anantapur"
+                },
+                {
+                    "name": "Chittoor ",
+                    "value": "Chittoor "
+                },
+                {
+                    "name": "East Godavari (Rajahmundry)",
+                    "value": "East Godavari (Rajahmundry)"
+                },
+                {
+                    "name": "Guntur",
+                    "value": "Guntur"
+                },
+                {
+                    "name": "Krishna (Machilipatnam)",
+                    "value": "Krishna (Machilipatnam)"
+                },
+                {
+                    "name": "Kurnool",
+                    "value": "Kurnool"
+                },
+                {
+                    "name": "Prakasam",
+                    "value": "Prakasam"
+                },
+                {
+                    "name": "Srikakulam",
+                    "value": "Srikakulam"
+                },
+                {
+                    "name": "Prakasam",
+                    "value": "Prakasam"
+                },
+                {
+                    "name": "Sri Potti Sriramulu (Nellore)",
+                    "value": "Sri Potti Sriramulu (Nellore)"
+                },
+                {
+                    "name": "Visakhapatnam",
+                    "value": "Visakhapatnam"
+                },
+                {
+                    "name": "Vizianagaram",
+                    "value": "Vizianagaram"
+                },
+                {
+                    "name": "West Godavari (Eluru)",
+                    "value": "West Godavari (Eluru)"
+                },
+                {
+                    "name": "YSR Kadapa",
+                    "value": "YSR Kadapa"
+                }
+            ]
+        },
+        "ArunachalPradesh": {
+            "name": "ArunachalPradesh",
+            "value": [
+                {
+                    "name": "Anjaw",
+                    "value": "Anjaw"
+                },
+                {
+                    "name": "Changlang",
+                    "value": "Changlang"
+                },
+                {
+                    "name": "Dibang Valley",
+                    "value": "DibangValley"
+                },
+                {
+                    "name": "East Kameng",
+                    "value": "EastKameng"
+                },
+                {
+                    "name": "East Siang",
+                    "value": "EastSiang"
+                },
+                {
+                    "name": "Kurung Kumey",
+                    "value": "Kurung Kumey"
+                }
+            ]
+        },
+        "Assam": {
+            "name": "Assam",
+            "value": [
+                {
+                    "name": "Baksa",
+                    "value": "Baksa"
+                }
+            ]
+        },
+        "Bihar": {
+            "name": "Bihar",
+            "value": [
+                {
+                    "name": "Araria",
+                    "value": "Araria"
+                }
+            ]
+        },
+        "Chhattisgarh": {
+            "name": "Chhattisgarh",
+            "value": [
+                {
+                    "name": "Balod",
+                    "value": "Balod"
+                },
+                {
+                    "name": "Baloda Bazar",
+                    "value": "Baloda Bazar"
+                }
+            ]
+        },
+        "Goa": {
+            "name": "Goa",
+            "value": [
+                {
+                    "name": "North Goa",
+                    "value": "North Goa"
+                },
+                {
+                    "name": "South Goa",
+                    "value": "South Goa "
+                }
+            ]
+        }
+    }
+}

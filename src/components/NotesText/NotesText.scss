@@ -1,0 +1,56 @@
+.case-info-sub-container {
+    display: flex;
+    align-items: unset;
+    padding: 5px 10px;
+    .label {
+        text-transform: unset;
+        text-align: right;
+        flex: 1;
+        padding: 0 10px;
+        color: #666464;
+        font-family: Titillium;
+        font-size: 0.9rem;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 29px;
+        h6 {
+            text-transform: unset;
+            text-align: right;
+            color: #666464;
+            font-family: Titillium;
+            font-size: 0.875rem;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 29px;
+        }
+        p {
+            text-transform: unset;
+            text-align: right;
+            color: #666464;
+        }
+    }
+    .input-field {
+        flex: 3;
+        text-transform: unset;
+        text-align: left;
+        .MuiSelect-select {
+            padding: 12px !important;
+        }
+        .client-notes {
+            height: 100%;
+            padding: 0 1rem;
+            min-height: 3rem;
+            align-items: center;
+            display: flex;
+        }
+    }
+    .description-container {
+        background-color: #F3F2EF;
+        flex: 3;
+        padding: 10px;
+        .description-input-field {
+            text-transform: unset;
+            text-align: left;
+        }
+    }
+}

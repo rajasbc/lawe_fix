@@ -1,0 +1,91 @@
+.stepper-container {
+    .step-container {
+        .MuiStepIcon-root {
+            font-size: 2rem;
+            color: #F3F2EF;
+            .MuiStepIcon-text {
+                fill: #292734;
+                font-weight: bold;
+            }
+        }
+        .MuiStepIcon-active {
+            color: #FFC602;
+            .MuiStepIcon-text {
+                fill: #292734;
+                font-weight: bold;
+            }
+        }
+        .MuiStepIcon-completed {
+            color: #357a38;
+        }
+        .MuiStepContent-root {
+            margin-left: 15px;
+            border-left: 2px solid #bdbdbd;
+        }
+        .MuiStepLabel-label {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .message-container {
+            display: flex;
+            padding: 10px;
+            .user-info {
+               
+            }
+            .message-info {
+                flex: 1;
+                border-radius: 20px;
+                background-color: #F3F2EF;
+                margin: 0 20px;
+                padding: 1.5rem;
+            }
+        }
+        .user-message-container {
+            display: flex;
+            padding: 10px;
+            .user-info {
+               
+            }
+            .message-info {
+                flex: 1;
+                border-radius: 20px;
+                background-color: #E5D395;
+                margin: 0 20px;
+                padding: 1.5rem;
+            }
+        }
+        .lawyer-notes-container {
+            padding: 1rem;
+            .lawyer-notes-field {
+                width: 100%;
+            }
+        }
+        .lawyer-action-container {
+            text-align: right;
+            padding: 0 1rem;
+            Button {
+                height: 40px;
+                font-size: 0.975rem;
+                text-transform: none;
+                color: #FFC602;
+                background-color: #292734;
+                &:hover {
+                    color: #FFC602;
+                    background-color: #000;
+                }
+                span {
+                    color: #FFC602;
+                }
+            }
+            .accept-btn {
+                margin-left: 10px;
+            }
+        }
+    }
+    .MuiStepConnector-vertical {
+        margin-left: 15px;
+        .MuiStepConnector-lineVertical {
+            border-left-width: 2px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.footer-container {
+    background-color: #292734;
+    .link-container {
+        padding: 0 25px;
+        Button {
+            padding-left: 16px;
+        }
+        .logo-img {
+            width: 100px;
+            height: 40px;
+        }
+        .list-item-text {
+            span {
+                color: #fff;
+                font-size:0.875rem;
+            }
+        }
+        .list-item-text-color {
+            color: #fff;
+        }
+        .only-text {
+            padding-left: 56px;
+        }
+        .footer-icon {
+            color: #FFC602;
+        }
+        .title-text {
+            line-height: 45px;
+            text-transform: unset;
+            padding-left: 16px;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .subscribe-text {
+            color: #fff;
+            padding-top: 10px;
+            font-size: 0.875rem;
+        }
+        .empty-left-padding {
+            padding-left: 0;
+        }
+    }
+    .terms-container {
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+        p {
+            font-size: 0.675rem;
+        }
+    }
+}

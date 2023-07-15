@@ -1,0 +1,28 @@
+
+.pg-viewer-wrapper img {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+
+
+.pg-viewer-wrapper .photo-viewer-container {
+    height: 100%!important;
+    width: 100%!important;
+}
+// .cssfile{
+//     display: block !important;
+//     }
+.gridCase {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    grid-template-columns: 186px 186px 186px 186px;
+  }
+  
+@media only screen and (min-width:320px) and (max-width:760px){
+
+.cssfile{
+display: block !important;
+}
+}

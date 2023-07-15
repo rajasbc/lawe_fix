@@ -1,0 +1,375 @@
+.main-container {
+  display: flex;
+  margin-top: 62px;
+  margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 600px) {
+.main-container {
+  display: block;
+  margin-top: 62px;
+  margin-bottom: 0.5rem;
+}
+}
+.drawer {
+  width: 200px;
+  flex-shrink: 0;
+  h2, h3 {
+      margin: 0;
+      padding: 0.7rem;
+      color: #FFC602;
+      font-family: Titillium;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 29px;
+      text-align: center;
+  }
+  h3 {
+      text-align: left;
+      font-size: 1.2rem;
+  }
+  ul {
+      color: #fff;
+      padding: 0;
+      .list-btn {
+          padding-top: 0;
+          padding-bottom: 0;
+      }
+      .list-text {
+          span {
+              font-weight: 600;
+          }
+      }
+      .active-btn {
+          background-color: #7a7878;
+      }
+  }
+  .dashboard-divider {
+      background-color: #979797;
+  }
+}
+
+.drawerPaper {
+  width: 200px;
+  min-height: 500px;
+  position: unset !important;
+  background-color: #292734 !important;
+}
+.drawer-content {
+  flex-grow: 1;
+}
+.dashboard-container{
+  width: 100%;
+  margin: 1rem 1rem;
+  .card{
+    min-height: 435px;
+    .card-content{
+      .detail-btn{
+        opacity: 0.6;
+        border-radius: 8px;
+        background-color: #FFC602;
+        text-transform: unset;
+        margin-left: 25px;
+        height: 32px;
+        margin-bottom: 8px;
+        margin-top: 16px;
+        &:hover {
+          color: #000;
+          background-color: #FFC602;
+        }
+      }
+      .item-container
+      {
+        overflow: auto;
+        height: 330px;
+        .list-item{
+          display:block;
+          .card-item{
+            display: flex;
+            padding: 8px;
+            margin: 0.5rem;
+            .link{
+              font-size: 11px;
+              color:#0645AD;
+              margin:0.5rem;
+              cursor: pointer;
+            }
+          }
+        }
+        .item-box{
+          background-color: white;
+          box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+          border-radius: 4px;
+          margin: 10px 0;
+          .item-subtext{
+            font-size: 0.85rem;
+            font-weight: 300;
+          }
+          .item-title{
+            font-size: 1.2rem;
+            font-weight: 500;
+          }
+          .item-text{
+            font-size: 1rem;
+            font-weight: 400;
+          }
+        }
+        .text{
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+        .text-right{
+          font-size: 1.2rem;
+          font-weight: 500;
+          text-align: right;
+        }
+      } 
+    }
+  }
+}
+
+
+
+// @media only screen and (max-width: 600px) {
+// .dashboard-container{
+//   width: 100%;
+//   margin: 1rem 1rem;
+//   .card{
+//     min-height: 435px;
+//     .card-content{
+//       .detail-btn{
+//         opacity: 0.6;
+//         border-radius: 8px;
+//         background-color: #FFC602;
+//         text-transform: unset;
+//         margin-left: 25px;
+//         height: 32px;
+//         margin-bottom: 8px;
+//         margin-top: 16px;
+//         &:hover {
+//           color: #000;
+//           background-color: #FFC602;
+//         }
+//       }
+//       .item-container
+//       {
+//         overflow: auto;
+//         height: 330px;
+//         .list-item{
+//           display:block;
+//           .card-item{
+//             // display: block;
+//             padding: 8px;
+//             margin: 0.5rem;
+//             .link{
+//               font-size: 11px;
+//               color:#0645AD;
+//               margin:0.5rem;
+//               cursor: pointer;
+//             }
+//           }
+//         }
+//         .item-box{
+//           background-color: white;
+//           box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+//           border-radius: 4px;
+//           margin: 10px 0;
+//           .item-subtext{
+//             font-size: 0.85rem;
+//             font-weight: 300;
+//           }
+//           .item-title{
+//             font-size: 1.2rem;
+//             font-weight: 500;
+//           }
+//           .item-text{
+//             font-size: 1rem;
+//             font-weight: 400;
+//           }
+//         }
+//         .text{
+//           font-size: 1.2rem;
+//           font-weight: 500;
+//         }
+//         .text-right{
+//           font-size: 1.2rem;
+//           font-weight: 500;
+//           text-align: right;
+//         }
+//       } 
+//     }
+//   }
+// }
+// }
+
+
+
+.form-field-container{
+  display: flex;
+  margin: 20px 0;
+  .text-field {
+    flex: 1;
+  }
+  .purpose-text-field{
+    flex: 1;
+    width: 100%;
+    input {
+        height: 25px;
+    }
+  }
+  .date-picker{
+    margin-top:-8px ;
+  }
+  
+}
+.select-input {
+  margin-right: 10px;
+  select {
+      padding: 12px !important;
+  }    
+}
+
+// @media only screen and (min-width: 960px)  and (max-width:2560px){
+//   .MuiBox-root.MuiBox-root-49, .MuiBox-root.MuiBox-root-78, .MuiBox-root.MuiBox-root-261, .MuiBox-root.MuiBox-root-328,.MuiBox-root.MuiBox-root-71{
+//   display: none;
+//   }
+//   .MuiBox-root.MuiBox-root-142{
+//     display: none;
+
+//   }
+// }
+
+
+// @media only screen and (min-width: 768px) and (max-width: 960px) {
+//   .MuiBox-root.MuiBox-root-37 {
+//     display: none;
+//     }
+//   .MuiBox-root.MuiBox-root-35{
+//   display: none;
+//   }
+//   .makeStyles-appResponsive-22 .header-menu span{
+//       display: block;
+//   }
+//   .makeStyles-appResponsive-22 .header-menu span label{
+    
+//       margin-left: 30px;
+//   } 
+//   .MuiGrid-root.MuiGrid-container.MuiGrid-align-items-xs-center.MuiGrid-grid-xs-10{
+//     margin-left: 3px;
+//   }
+
+// .MuiBox-root-64, .MuiBox-root.MuiBox-root-54.no-result-fount, .MuiBox-root.MuiBox-root-64.no-result-fount{
+//   display: grid;
+// }
+
+// }
+@media only screen and (min-width: 600px) {
+  .temp_dashboard{
+    display: none;
+  }
+ 
+  // .stageCheck {
+  //   display: "flex";
+  //   align-items: "center";
+  //   justify-content: "unset";
+  //   // margin: "0.5rem 0",
+  // }
+  // .caseInfoSubContainer {
+  //   display: "flex";
+  //   align-items: "unset";
+  //   padding: 5px 10px;
+  //   width: "100%";
+  // }
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+//   .header-menu span{
+//       display: block;
+//   }
+//   .header-menu span .lbl{
+//    margin-left: 30px;
+// }
+//   .makeStyles-appResponsive-22 .header-menu span label{
+    
+//       margin-left: 30px;
+//   } 
+  .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary{
+      padding-top: 20px;
+  }
+  .MuiBadge-badge.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-colorSecondary{
+      margin-top: 5;
+  }
+  .dashboard-container .MuiGrid-container{
+    display: block;
+  }
+  .MuiPaper-root.MuiCard-root.card.MuiPaper-elevation1.MuiPaper-rounded{
+    width: 100%;
+
+  }
+  .MuiGrid-grid-xs-4 {
+    max-width: 90% !important;
+  }
+  .MuiList-root.makeStyles-root-68{
+margin-right: 2rem;
+  }
+  .MuiButtonBase-root.MuiButton-root.MuiButton-contained.detail-btn{
+width: 13rem;
+  }
+  .card-container .warning-text-container{
+    text-align: left;
+    padding: 20px 0px;
+  }
+  .card-container .ack-container{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+  .MuiButton-contained.addnotes{
+    //  margin-left: 15px;
+    margin-left:-1px!important;
+    text-align: center!important;
+    padding:1px 23px!important;
+
+  }
+  .d-flex.justify-content-start.mt-3{
+    .MuiButton-contained{
+    margin-left:-1px!important;
+    text-align: center!important;
+    padding:9px 23px!important;
+    width: 14rem;
+    }
+
+  }
+  .card-container .title-text{
+    font-size: 1.1rem;
+    margin-top: -2px;
+    width: 100%;
+      
+  }
+  .MuiAvatar-root.MuiAvatar-circular.makeStyles-large-67{
+    margin-bottom: 25px;
+  }
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12{
+    margin-right: 2rem;
+
+  }
+
+div .MuiDrawer-root.MuiDrawer-docked.drawer:has(div.active-btn){
+  display: none; 
+}
+.temp_dashboard{
+  float: right;
+  padding-right: 30px;
+}
+
+} 
+@media only screen and (min-width:768px){
+
+.d-flex.justify-content-start.mt-3{
+  .MuiButton-contained{
+  // margin-left:-1px!important;
+  text-align: center!important;
+  padding:4px 38px!important;
+  width: 14rem;
+  }
+}
+}

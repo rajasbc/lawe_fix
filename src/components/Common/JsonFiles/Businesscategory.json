@@ -1,0 +1,25 @@
+ {
+    
+    "Automotive Business": ["Auto Body Shop", "Auto Dealer", "Auto Parts Store", "Auto Repair"],
+    "Dry cleaning Or Laundry": ["none"],
+    "Emergency Service": ["Fire Station","Hospital","Police Station"],
+    "Employment Agency": ["none"],
+    "Entertaiment Business": ["one", "two", "three", "four"],
+    "Financial Service": ["five", "six", "seven", "eight"],
+    "Food Establishment": ["one", "two", "three", "four"],
+    "Goverment Office": ["five", "six", "seven", "eight"],
+    "Health And Beauty Business": ["one", "two", "three", "four"],
+    "Home And Consstruction Business": ["five", "six", "seven", "eight"],
+    "Internet Cafe": ["one", "two", "three", "four"],
+    "Legal Service": ["five", "six", "seven", "eight"],
+    "Library And Book Shop": ["one", "two", "three", "four"],
+    "Lodging Business": ["five", "six", "seven", "eight"],
+    "Medical Business": ["one", "two", "three", "four"],
+    "RadioStation": ["five", "six", "seven", "eight"],
+    "Real Estate Agent": ["one", "two", "three", "four"],
+    "RecyclingCenter": ["five", "six", "seven", "eight"],
+    "Self Storage": ["five", "six", "seven", "eight"],
+    "Shopping Center": ["one", "two", "three", "four"],
+    "Sport Activity Location": ["Bowlling Alley", "Exercise Gym", "Golf Course", "Health club", "Public Swmming Pool","sport Club", "Stadium"],
+    "Store": ["one", "two", "three", "four"]
+}

@@ -1,0 +1,359 @@
+.top-banner {
+    height: 535px;
+    width: 100%;
+    background: linear-gradient(85.57deg, #1C67C2 0%, #1E7DC3 28.02%, #229BC5 64.24%, #25B8C7 100%);
+    position: relative;
+    .bottom-triangle {
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        background: linear-gradient(to left bottom, transparent 50%, #fff 50%);
+        // background: linear-gradient(to left bottom, #1C67C2 0%, #1E7DC3 28.02%, #229BC5 64.24%, #25B8C7 100%);
+        width: 100%;
+        height: 200px;
+        transform: scaleX(-1);
+    }
+}
+.findlawyer-banner {
+    background-color: #292734;
+    background-image: url('../../assets/img/banner/findlawyer.png');
+    background-position-x: 30%;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: unset;
+    min-height: 474px;
+    margin-top: 62px;
+    display: flex;
+    padding-left: 20px;
+}
+.judgement-banner {
+    background-color: #292734;
+    background-image: url('../../assets/img/banner/findjudgement.png');
+    background-position-x: 30%;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: unset;
+    min-height: 474px;
+    margin-top: 62px;
+    display: flex;
+    padding-left: 50px;
+}
+
+
+.button-banner {
+    min-height: 100px;
+    background-color: #292734;
+    .banner-container {
+        display: flex;
+        justify-content: flex-start;
+        padding: 19px 30px 0 30px;
+        .btn-list-item {
+            display: flex;
+            align-items: center;
+            width: 20%;
+            cursor: pointer;
+            .btn-image {
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            .btn-text {
+                span {
+                    margin: 0;
+                    color: #fff;
+                    line-height: 1.2;
+                    text-transform: none;
+                }
+            }
+        }
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    .button-banner {
+        min-height: 100px;
+        background-color: #292734;
+        .banner-container {
+            display: flex;
+            justify-content: flex-start;
+            padding: 19px 30px 0 30px;
+            .btn-list-item {
+                display: flex;
+                align-items: center;
+                width: 50%;
+                cursor: pointer;
+                .btn-image {
+                    img {
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+                .btn-text {
+                    span {
+                        margin: 0;
+                        color: #fff;
+                        line-height: 1.2;
+                        text-transform: none;
+                    }
+                }
+            }
+        }    
+    }
+    }
+.blog-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .content-blog {
+        padding: 6px;
+        h3 {
+            color: #292734;
+            font-weight: 600;
+        }
+        Button {
+            height: 40px;
+            font-size: 0.800rem;
+            text-transform: none;
+            color: #fff;
+            background-color: #292734;
+            border-radius:unset;
+            width: 150px;
+            font-weight: unset;
+            margin-top: 20px;
+            &:hover {
+                color: #fff;
+                background-color: #000;
+            }
+        }
+    }
+    .image-blog {
+        height: 500px;
+        width: 600px;
+        background-image: url('../../assets/img/banner/blog.jpg');
+        background-position-x: 100%;
+        background-position-y: 0;
+        background-repeat: no-repeat;
+        background-size: unset;
+    }
+}
+.bottom-banner {
+    height: 535px;
+    width: 100%;
+    background: linear-gradient(85.57deg, #1C67C2 0%, #1E7DC3 28.02%, #229BC5 64.24%, #25B8C7 100%);
+    position: relative;
+    .top-triangle {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        background: linear-gradient(to left bottom, #fff 50%, transparent 50%);
+        // background: linear-gradient(to left bottom, #1C67C2 0%, #1E7DC3 28.02%, #229BC5 64.24%, #25B8C7 100%);
+        width: 100%;
+        height: 200px;
+        transform: scaleX(-1);
+    }
+}
+
+.tab-bar {
+    box-shadow: none !important;
+    .search-tabs {
+        padding: 0 30px;
+    }
+}
+.tab-button {
+    font-size: 1.1rem !important;
+    text-transform: none !important;
+    color: #FFC602 !important;
+    &.Mui-selected {
+        color: #FFC602 !important;
+        font-weight: 700;
+        font-size: 1.2rem !important;
+    }
+}
+.margin-top-empty {
+    margin-top: 0 !important;
+}
+.search-field-container {
+    display: flex;
+    margin: 20px 0;
+    .text-field {
+        flex: 1;
+        margin-right: 10px;
+    }
+    .court-field-container {
+        width: 100%;
+    }
+    .hidden-text {
+        visibility: hidden;
+    }
+    .radio-field-set {
+        width: 100%;
+        .radio-label {
+            color: #292734;
+        }
+    }
+    .location-text-field { 
+        flex: 1;        
+        margin-right: 10px;    
+        width: 100% !important;
+        input {
+            height: 25px;
+        }
+    }
+}
+.search-button {
+    display: flex;
+    margin-right: 10px;
+    justify-content: flex-end;
+    Button {
+        height: 40px;
+        font-size: 0.975rem;
+        text-transform: none;
+        color: #000;
+        background-color: #FFC602;
+        &:hover {
+            color: #000;
+            background-color: #FFC602;
+        }
+        span {
+            color: #000;
+        }
+    }
+}
+.tab-pannel {
+    padding: 15px;
+}
+
+.select-input {
+    select {
+        padding: 12px !important;
+    }    
+}
+.select-lable {
+    line-height: 0.2 !important;
+    &.MuiInputLabel-outlined.MuiInputLabel-shrink {
+        transform: translate(14px, -3px) scale(0.75) !important;
+    }
+}
+.MuiTabs-indicator {
+    background-color: #292734 !important;
+    height: 3px !important;
+}
+.margin-right-10 {
+    margin-right: 10px !important;
+}
+.search-card-cantainer {
+    padding: 15px 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 968px){
+    .search-card-cantainer {
+        padding: 15px 10px;
+       
+    }
+    .searchFieldContainer{
+        display: flex;
+        margin: 20px 0;
+    }
+    // .MuiPaper-root.makeStyles-searchCardCantainer-49{
+    //     padding:15px 10px;
+    //     margin-left: 5rem !important;
+    //     width: 600px;
+    //     // align-self: center;
+    //   }
+      .MuiPaper-root.search-card-cantainer.MuiPaper-elevation3.MuiPaper-rounded{
+          width: 36rem;
+      }
+}
+@media only screen and (min-width:320px) and (max-width:600px){
+
+    .searchFieldContainer{
+        display: grid;
+        margin: 20px 0;
+    }
+    .searchFieldContainer{
+        .MuiInputBase-formControl{
+            margin-bottom: 20px;
+            width: 15rem;
+        }
+    }
+    .searchFieldContainer{
+        .MuiFormControl-fullWidth{
+            // margin-bottom: 20px;
+            width: 15rem;
+        }
+    }
+    .findlawyer-banner{
+        .MuiGrid-root.MuiGrid-container.MuiGrid-align-items-xs-center{
+           width: 276px!important;
+    margin-left: -5px;
+        }
+    }
+    
+    // .search-card-cantainer {
+    //     padding: 15px 10px;
+    //     width: 300px;
+    // }
+    // .makeStyles-searchCardCantainer-88{
+    //     padding:15px 10px;
+    //     width:150px!important;
+    //     margin-left: 4rem !important;
+    //   }
+    //   .MuiPaper-root.makeStyles-searchCardCantainer-49{
+    //     padding:15px 10px;
+    //     // margin-left: 3rem !important;
+    //     width: 284px;
+    //     // align-self: center;
+    //   }
+    //   .MuiInputBase-root.MuiOutlinedInput-root.makeStyles-selectInput-54{
+    //     width: 120px;
+    //   }
+    //   .WAMuiChipInput-inputRoot-71.WAMuiChipInput-outlined-74{
+    //     width: 100px;
+    //   }
+      .MuiInputBase-marginDense.MuiOutlinedInput-marginDense{
+        width: 253px;
+      }
+      .MuiButtonBase-root.MuiButton-root.MuiButton-contained{
+        margin-top:5px;
+        
+        }
+        .MuiPaper-root.search-card-cantainer.MuiPaper-elevation3.MuiPaper-rounded{
+          margin-left:-1rem;
+        }
+        .search-card-cantainer{
+            
+                .search-button{
+                    .MuiButtonBase-root.MuiButton-root.MuiButton-contained{
+                    width: 14rem;
+                    }
+                
+            }
+        }
+        // .MuiGrid-item{
+        //     margin:30px!important;
+        // }
+
+        .searchFieldContainer{
+            .MuiChip-clickable.MuiChip-deletable{
+                width: 150px;
+            }
+        }
+    }
+      
+
+    @media only screen and (min-width:968px){
+    .searchFieldContainer{
+        display: flex;
+        margin: 20px 0;
+    }
+
+}
+.search-card-title {
+    color: #FFC602;
+    text-transform: unset;
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.02857em !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif,"Titillium";
+}

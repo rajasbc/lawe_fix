@@ -1,0 +1,2083 @@
+{
+	"_id": "5f3b930c15cd9c3d2169eb71",
+	"type": "form",
+	"tags": [
+		"common"
+	],
+	"owner": "5f3781647dd90906aaf011d4",
+	"components": [
+		{
+			"clearOnHide": false,
+			"key": "panel",
+			"input": false,
+			"title": "Basic Information",
+			"theme": "default",
+			"tableView": false,
+			"components": [
+				{
+					"clearOnHide": false,
+					"label": "Columns",
+					"input": false,
+					"tableView": false,
+					"key": "panelColumns",
+					"columns": [
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "First Name",
+									"key": "fName",
+									"placeholder": "First Name",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "^[A-Za-z ]+$",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "First Name should contain only alphabets",
+										"required": "Please enter your First Name"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 1
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "DOB",
+									"key": "dob",
+									"placeholder": "DOB",
+									"format": "dd-MM-yyyy",
+									"enableDate": true,
+									"enableTime": false,
+									"defaultDate": "",
+									"datepickerMode": "day",
+									"datePicker": {
+										"showWeeks": true,
+										"startingDay": 0,
+										"initDate": "",
+										"minMode": "day",
+										"maxMode": "year",
+										"yearRows": 4,
+										"yearColumns": 5,
+										"minDate": null,
+										"maxDate": "moment().add(0, 'days')",
+										"datepickerMode": "day"
+									},
+									"timePicker": {
+										"hourStep": 1,
+										"minuteStep": 1,
+										"showMeridian": true,
+										"readonlyInput": false,
+										"mousewheel": true,
+										"arrowkeys": true
+									},
+									"protected": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true,
+										"custom": "valid = ((moment().diff(moment(input), 'days'))>6573) ? true : 'User age must greater than 18';"
+									},
+									"errors": {
+										"required": "Please select a valid Date of Birth",
+										"custom": "Age must be greater than 18"
+									},
+									"type": "datetime",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"useLocaleSettings": false,
+									"lockKey": true,
+									"tabindex": 3
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Email",
+									"key": "email",
+									"placeholder": "email@address.com",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "^(([^<>()[\\]\\.,;:\\s@']+(\\.[^<>()[\\]\\.,;:\\s@']+)*)|('.+'))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Email Address is invalid",
+										"required": "Please enter your Email Address"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 5
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						},
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Last Name",
+									"key": "lName",
+									"placeholder": "Last Name",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "^[A-Za-z ]+$",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Last Name should contain only alphabets",
+										"required": "Please enter your Last Name"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 2
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "Gender",
+									"key": "gender",
+									"placeholder": "Gender",
+									"data": {
+										"values": [
+											{
+												"value": "Male",
+												"label": "Male"
+											},
+											{
+												"value": "Female",
+												"label": "Female"
+											},
+											{
+												"value": "Third Gender",
+												"label": "Third Gender"
+											},
+											{
+												"value": "Don’t want to Disclose",
+												"label": "Don’t want to Disclose"
+											}
+										],
+										"json": "",
+										"url": "",
+										"resource": "",
+										"custom": ""
+									},
+									"dataSrc": "values",
+									"valueProperty": "",
+									"defaultValue": "",
+									"refreshOn": "",
+									"filter": "",
+									"authenticate": false,
+									"template": "<span>{{ item.label }}</span>",
+									"multiple": false,
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true
+									},
+									"errors": {
+										"required": "Please select your Gender"
+									},
+									"type": "select",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 4
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "ID Proof Type",
+									"key": "idProofType",
+									"placeholder": "ID Proof",
+									"data": {
+										"values": [],
+										"json": "",
+										"url": "https://data.lawe.co.in/idproof",
+										"resource": "",
+										"custom": "",
+										"headers": [
+											{
+												"value": "",
+												"key": ""
+											}
+										]
+									},
+									"dataSrc": "url",
+									"valueProperty": "proofName",
+									"defaultValue": "",
+									"refreshOn": "",
+									"filter": "",
+									"authenticate": false,
+									"template": "<span>{{ item.proofName }}</span>",
+									"multiple": false,
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true
+									},
+									"errors": {
+										"required": "Please select an ID Proof"
+									},
+									"type": "select",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 6
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "ID Proof",
+									"key": "idProof",
+									"placeholder": "ex: 234567890123",
+									"description": "First character should not be 0 or 1 and the next 11 digits should contain only numbers",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"pattern": "^[2-9]{1}[0-9]{3}[0-9]{4}[0-9]{4}$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Enter a valid Aadhaar Card Number",
+										"required": "Please enter your Aadhaar Card Number"
+									},
+									"conditional": {
+										"show": "true",
+										"when": "idProofType",
+										"eq": "Aadhaar Card"
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 7
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "ID Proof",
+									"key": "idProof5",
+									"placeholder": "ex: ABCDE0123Z",
+									"description": "First five characters should be any upper case alphabets and then the next four-characters should be any number from 0 to 9 and the last charcter should be an upper case alphabet ",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"pattern": "[A-Z]{5}[0-9]{4}[A-Z]{1}$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Enter a valid PAN Card Number",
+										"required": "Please enter your PAN Card Number"
+									},
+									"conditional": {
+										"show": "true",
+										"when": "idProofType",
+										"eq": "PAN Card"
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 7
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "ID Proof",
+									"key": "idProof4",
+									"placeholder": "ex: ABC0123456",
+									"description": "First three characters should be alphabets followed by seven numbers",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"pattern": "^([a-zA-Z]){3}([0-9]){7}?$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Enter a valid Voter's ID",
+										"required": "Please enter your Voter's ID"
+									},
+									"conditional": {
+										"show": "true",
+										"when": "idProofType",
+										"eq": "Voters ID"
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 7
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "ID Proof",
+									"key": "idProof3",
+									"placeholder": "ex: HR-0619850034761 / HR06 19850034761",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"pattern": "^(([A-Z]{2}[0-9]{2})( )|([A-Z]{2}-[0-9]{2}))((19|20)[0-9][0-9])[0-9]{7}$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Enter a valid Driving License Number",
+										"required": "Please enter your Driving License Number"
+									},
+									"conditional": {
+										"show": "true",
+										"when": "idProofType",
+										"eq": "Driving Licence"
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"description": "Uppercase state code, RTO code, (space,-), issued year, 7-digit",
+									"tabindex": 7
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "ID Proof",
+									"key": "idProof2",
+									"placeholder": "ex: A1001231",
+									"description": "First character should be an upper case alphabet and the next two characters should be a number, but the first character should be any number from 1-9 and the second character should be any number from 0-9 followed by the next four characters should be any number from 0-9 and the last character should be any number from 1-9",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"pattern": "^[A-Z][0-9]+$",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Enter a valid Passport Number",
+										"required": "Please enter your Passport Number"
+									},
+									"conditional": {
+										"show": "true",
+										"when": "idProofType",
+										"eq": "Passport"
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 7
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						}
+					],
+					"type": "columns",
+					"hideLabel": true,
+					"tags": [],
+					"conditional": {
+						"show": "",
+						"when": null,
+						"eq": ""
+					},
+					"properties": {}
+				}
+			],
+			"type": "panel",
+			"breadcrumb": "default",
+			"tags": [],
+			"conditional": {
+				"show": "",
+				"when": null,
+				"eq": ""
+			},
+			"properties": {},
+			"hideLabel": false,
+			"collapsible": false
+		},
+		{
+			"clearOnHide": false,
+			"key": "panel3",
+			"input": false,
+			"title": "Address Information",
+			"theme": "default",
+			"tableView": false,
+			"components": [
+				{
+					"clearOnHide": false,
+					"label": "Columns",
+					"input": false,
+					"tableView": false,
+					"key": "panel3Columns",
+					"columns": [
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Address",
+									"key": "address",
+									"placeholder": "Address",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"required": "Please enter your Address"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 8
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Pincode",
+									"key": "pincode",
+									"placeholder": "Pincode",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "^[1-9][0-9]{5}$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Enter the valid Pincode",
+										"required": "Please enter your Pincode"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 10
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "City",
+									"key": "city",
+									"placeholder": "City",
+									"data": {
+										"values": [
+											{
+												"value": "",
+												"label": ""
+											}
+										],
+										"json": "",
+										"url": "https://data.lawe.co.in/citybystate",
+										"resource": "",
+										"custom": "",
+										"headers": [
+											{
+												"value": "",
+												"key": ""
+											}
+										]
+									},
+									"dataSrc": "url",
+									"valueProperty": "",
+									"defaultValue": "",
+									"refreshOn": "",
+									"filter": "id={{data.state.id}}",
+									"authenticate": false,
+									"template": "<span>{{ item.cityName }}</span>",
+									"multiple": false,
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true
+									},
+									"errors": {
+										"required": "Please select your City"
+									},
+									"type": "select",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"lockKey": true,
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"tabindex": 12
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						},
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Area",
+									"key": "location",
+									"placeholder": "Area",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"required": "Please enter your Area"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 9
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "State",
+									"key": "state",
+									"placeholder": "State",
+									"data": {
+										"values": [
+											{
+												"value": "",
+												"label": ""
+											}
+										],
+										"json": "",
+										"url": "https://data.lawe.co.in/states",
+										"resource": "",
+										"custom": "",
+										"headers": [
+											{
+												"value": "",
+												"key": ""
+											}
+										]
+									},
+									"dataSrc": "url",
+									"valueProperty": "",
+									"defaultValue": "",
+									"refreshOn": "",
+									"filter": "",
+									"authenticate": false,
+									"template": "<span>{{ item.stateName }}</span>",
+									"multiple": false,
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true
+									},
+									"errors": {
+										"required": "Please select your State"
+									},
+									"type": "select",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 11
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "Country",
+									"key": "country",
+									"placeholder": "Country",
+									"data": {
+										"values": [
+											{
+												"value": "India",
+												"label": "India"
+											}
+										],
+										"json": "",
+										"url": "",
+										"resource": "",
+										"custom": ""
+									},
+									"dataSrc": "values",
+									"valueProperty": "",
+									"defaultValue": "India",
+									"refreshOn": "",
+									"filter": "",
+									"authenticate": false,
+									"template": "<span>{{ item.label }}</span>",
+									"multiple": false,
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true
+									},
+									"type": "select",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 13
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						}
+					],
+					"type": "columns",
+					"hideLabel": true,
+					"tags": [],
+					"conditional": {
+						"show": "",
+						"when": null,
+						"eq": ""
+					},
+					"properties": {}
+				}
+			],
+			"type": "panel",
+			"breadcrumb": "default",
+			"hideLabel": false,
+			"tags": [],
+			"conditional": {
+				"show": "",
+				"when": null,
+				"eq": ""
+			},
+			"properties": {}
+		},
+		{
+			"clearOnHide": false,
+			"key": "panel2",
+			"input": false,
+			"title": "Mobile/Security",
+			"theme": "default",
+			"tableView": false,
+			"components": [
+				{
+					"clearOnHide": false,
+					"label": "Columns",
+					"input": false,
+					"tableView": false,
+					"key": "panel2Columns",
+					"columns": [
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Mobile Number",
+									"key": "mobileNo",
+									"placeholder": "Mobile Number",
+									"prefix": "+91",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "^[6-9][0-9]{9}$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Enter valid Mobile Number",
+										"required": "Please enter your Mobile Number"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 14
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "OTP",
+									"key": "otp",
+									"placeholder": "OTP",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": false,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "",
+										"customPrivate": true
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 16
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Password",
+									"key": "password",
+									"description": "Use a minimum of 8 characters with at least one uppercase letter, one lowercase letter, one number and one special character",
+									"placeholder": "ex: Test@123",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"pattern": "Password should contain a minimum of 8 characters with at least one Uppercase letter, one Lowercase letter, one Number and one Special character",
+										"required": "Password field is required"
+									},
+									"conditional": {
+										"show": "",
+										"when": "",
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"mask": true,
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 17
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						},
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"label": "Send OTP",
+									"tableView": false,
+									"key": "sendOtp",
+									"size": "md",
+									"leftIcon": "",
+									"rightIcon": "",
+									"block": false,
+									"action": "event",
+									"disableOnInvalid": false,
+									"theme": "primary",
+									"type": "button",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"lockKey": true,
+									"customClass": "signup-button",
+									"headers": [
+										{
+											"value": "{{data.mobileNo}}",
+											"header": "number"
+										}
+									],
+									"url": "http://c4a466b2571a.ngrok.io/sendOTP",
+									"tabindex": 15
+								},
+								{
+									"key": "columnsContent",
+									"label": "Content",
+									"input": false,
+									"tag": "p",
+									"attrs": [
+										{
+											"value": "",
+											"attr": ""
+										}
+									],
+									"className": "",
+									"content": "Having trouble getting OTP?<br><a>Resend OTP</a>",
+									"type": "htmlelement",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"hideLabel": true
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Confirm Password",
+									"key": "confirmPassword",
+									"placeholder": "Re enter Password",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "",
+										"custom": "valid = (data.view_pwd == data.confirmPassword) || (data.password == data.confirmPassword)",
+										"customPrivate": true
+									},
+									"errors": {
+										"custom": "Password and Confirmation Password do not match",
+										"required": "Please enter the Password again for confirmation"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"mask": true,
+									"lockKey": true,
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"tabindex": 18
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						}
+					],
+					"type": "columns",
+					"hideLabel": true,
+					"tags": [],
+					"conditional": {
+						"show": "",
+						"when": null,
+						"eq": ""
+					},
+					"properties": {}
+				}
+			],
+			"type": "panel",
+			"breadcrumb": "default",
+			"hideLabel": false,
+			"tags": [],
+			"conditional": {
+				"show": "",
+				"when": null,
+				"eq": ""
+			},
+			"properties": {}
+		},
+		{
+			"clearOnHide": false,
+			"key": "panel4",
+			"input": false,
+			"title": "Skills",
+			"theme": "default",
+			"tableView": false,
+			"components": [
+				{
+					"clearOnHide": false,
+					"label": "Columns",
+					"input": false,
+					"tableView": false,
+					"key": "panel4Columns",
+					"columns": [
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "Practising Court",
+									"key": "practisingCourt",
+									"placeholder": "Practising Court",
+									"data": {
+										"values": [
+											{
+												"value": "",
+												"label": ""
+											}
+										],
+										"json": "",
+										"url": "https://data.lawe.co.in/courts",
+										"resource": "",
+										"custom": "",
+										"headers": [
+											{
+												"value": "",
+												"key": ""
+											}
+										]
+									},
+									"dataSrc": "url",
+									"valueProperty": "",
+									"defaultValue": "",
+									"refreshOn": "",
+									"filter": "",
+									"authenticate": false,
+									"template": "<span> {{ item.courtName }} </span>",
+									"multiple": true,
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true
+									},
+									"errors": {
+										"required": "Please select your Practising Court"
+									},
+									"type": "select",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 19
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "Languages Known",
+									"key": "languagesKnow",
+									"placeholder": "Languages Known",
+									"data": {
+										"values": [
+											{
+												"value": "Assamese",
+												"label": "Assamese"
+											},
+											{
+												"value": "Bengali",
+												"label": "Bengali"
+											},
+											{
+												"value": "Bodo",
+												"label": "Bodo"
+											},
+											{
+												"value": "Dogri",
+												"label": "Dogri"
+											},
+											{
+												"value": "English",
+												"label": "English"
+											},
+											{
+												"value": "Gujarati",
+												"label": "Gujarati"
+											},
+											{
+												"value": "Hindi",
+												"label": "Hindi"
+											},
+											{
+												"value": "Kannada",
+												"label": "Kannada"
+											},
+											{
+												"value": "Kashmiri",
+												"label": "Kashmiri"
+											},
+											{
+												"value": "Konkani",
+												"label": "Konkani"
+											},
+											{
+												"value": "Maithili",
+												"label": "Maithili"
+											},
+											{
+												"value": "Malayalam",
+												"label": "Malayalam"
+											},
+											{
+												"value": "Meitei",
+												"label": "Meitei"
+											},
+											{
+												"value": "Marathi",
+												"label": "Marathi"
+											},
+											{
+												"value": "Nepali",
+												"label": "Nepali"
+											},
+											{
+												"value": "Odia",
+												"label": "Odia"
+											},
+											{
+												"value": "Punjabi",
+												"label": "Punjabi"
+											},
+											{
+												"value": "Sanskrit",
+												"label": "Sanskrit"
+											},
+											{
+												"value": "Santali",
+												"label": "Santali"
+											},
+											{
+												"value": "Sindhi",
+												"label": "Sindhi"
+											},
+											{
+												"value": "Tamil",
+												"label": "Tamil"
+											},
+											{
+												"value": "Telugu",
+												"label": "Telugu"
+											},
+											{
+												"value": "Urdu",
+												"label": "Urdu"
+											},
+											{
+												"value": "Kokborok",
+												"label": "Kokborok"
+											},
+											{
+												"value": "Mizo",
+												"label": "Mizo"
+											},
+											{
+												"value": "Khasi",
+												"label": "Khasi"
+											},
+											{
+												"value": "Angika",
+												"label": "Angika"
+											},
+											{
+												"value": "Bhojpuri",
+												"label": "Bhojpuri"
+											},
+											{
+												"value": "Magadhi",
+												"label": "Magadhi"
+											},
+											{
+												"value": "Kodava",
+												"label": "Kodava"
+											},
+											{
+												"value": "Bhili",
+												"label": "Bhili"
+											},
+											{
+												"value": "Gondi",
+												"label": "Gondi"
+											},
+											{
+												"value": "Kutchi",
+												"label": "Kutchi"
+											},
+											{
+												"value": "Tulu",
+												"label": "Tulu"
+											},
+											{
+												"value": "Sankethi",
+												"label": "Sankethi"
+											},
+											{
+												"value": "Marwari",
+												"label": "Marwari"
+											},
+											{
+												"value": "Mewari",
+												"label": "Mewari"
+											},
+											{
+												"value": "Shekhavati",
+												"label": "Shekhavati"
+											}
+										],
+										"json": "",
+										"url": "",
+										"resource": "",
+										"custom": ""
+									},
+									"dataSrc": "values",
+									"valueProperty": "",
+									"defaultValue": "",
+									"refreshOn": "",
+									"filter": "",
+									"authenticate": false,
+									"template": "<span>{{ item.label }}</span>",
+									"multiple": true,
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true
+									},
+									"errors": {
+										"required": "Please select the Languages that you know"
+									},
+									"type": "select",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 21
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						},
+						{
+							"components": [
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"label": "Practicing From",
+									"key": "practisingFrom",
+									"placeholder": "Practicing From",
+									"format": "dd-MM-yyyy",
+									"enableDate": true,
+									"enableTime": false,
+									"defaultDate": "",
+									"datepickerMode": "day",
+									"datePicker": {
+										"showWeeks": true,
+										"startingDay": 0,
+										"initDate": "",
+										"minMode": "day",
+										"maxMode": "year",
+										"yearRows": 4,
+										"yearColumns": 5,
+										"minDate": null,
+										"maxDate": "moment().add(0, 'days')",
+										"datepickerMode": "day"
+									},
+									"timePicker": {
+										"hourStep": 1,
+										"minuteStep": 1,
+										"showMeridian": true,
+										"readonlyInput": false,
+										"mousewheel": true,
+										"arrowkeys": true
+									},
+									"protected": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"validate": {
+										"required": true,
+										"custom": ""
+									},
+									"errors": {
+										"required": "Please select your Practising From Date"
+									},
+									"type": "datetime",
+									"labelPosition": "left-left",
+									"tags": [],
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 20
+								},
+								{
+									"autofocus": false,
+									"input": true,
+									"tableView": true,
+									"inputType": "text",
+									"inputMask": "",
+									"label": "Bar Council Code",
+									"key": "barCouncilCode",
+									"placeholder": "ex: MS1234/1995",
+									"description": "First two characters represent the state code followed by  2 - 4 charaters of numbers and then a forward slash(/) and the last part consists of four numbers which represent the year",
+									"prefix": "",
+									"suffix": "",
+									"multiple": false,
+									"defaultValue": "",
+									"protected": false,
+									"unique": false,
+									"persistent": true,
+									"hidden": false,
+									"clearOnHide": true,
+									"spellcheck": true,
+									"validate": {
+										"required": true,
+										"minLength": "",
+										"maxLength": "",
+										"pattern": "^([A-Z]){2}([0-9]){2,4}(\/([0-9]{2})|(\/(19|20)[0-9][0-9]))$",
+										"custom": "",
+										"customPrivate": false
+									},
+									"errors": {
+										"required": "Please enter your Bar Council Code",
+										"pattern": "Enter the valid Bar Council Code"
+									},
+									"conditional": {
+										"show": "",
+										"when": null,
+										"eq": ""
+									},
+									"type": "textfield",
+									"labelPosition": "left-left",
+									"inputFormat": "plain",
+									"tags": [],
+									"properties": {},
+									"labelWidth": 30,
+									"labelMargin": 3,
+									"lockKey": true,
+									"tabindex": 22
+								}
+							],
+							"width": 6,
+							"offset": 0,
+							"push": 0,
+							"pull": 0
+						}
+					],
+					"type": "columns",
+					"hideLabel": true,
+					"tags": [],
+					"conditional": {
+						"show": "",
+						"when": null,
+						"eq": ""
+					},
+					"properties": {}
+				},
+				{
+					"autofocus": false,
+					"input": true,
+					"tree": true,
+					"components": [
+						{
+							"autofocus": false,
+							"input": true,
+							"tableView": true,
+							"label": "Skill",
+							"key": "product",
+							"placeholder": "Skill",
+							"data": {
+								"values": [
+									{
+										"value": "",
+										"label": ""
+									}
+								],
+								"json": "",
+								"url": "https://data.lawe.co.in/lawcategory",
+								"resource": "",
+								"custom": "",
+								"headers": [
+									{
+										"value": "",
+										"key": ""
+									}
+								]
+							},
+							"dataSrc": "url",
+							"valueProperty": "",
+							"defaultValue": "",
+							"refreshOn": "",
+							"filter": "",
+							"authenticate": false,
+							"template": "<span>{{ item.name }}</span>",
+							"multiple": false,
+							"protected": false,
+							"unique": false,
+							"persistent": true,
+							"hidden": false,
+							"clearOnHide": true,
+							"validate": {
+								"required": true
+							},
+							"errors": {
+								"required": "Please select the Skill"
+							},
+							"type": "select",
+							"inDataGrid": true,
+							"labelPosition": "top",
+							"tags": [],
+							"conditional": {
+								"show": "",
+								"when": null,
+								"eq": ""
+							},
+							"properties": {},
+							"labelWidth": 30,
+							"labelMargin": 3,
+							"lockKey": true,
+							"tabindex": 23
+						},
+						{
+							"autofocus": false,
+							"input": true,
+							"tableView": true,
+							"label": "Sub Skill",
+							"key": "subProduct",
+							"placeholder": "Sub Skill",
+							"data": {
+								"values": [
+									{
+										"value": "",
+										"label": ""
+									}
+								],
+								"json": "",
+								"url": "https://data.lawe.co.in/lawcategorybyid",
+								"resource": "",
+								"custom": "",
+								"headers": [
+									{
+										"value": "",
+										"key": ""
+									}
+								]
+							},
+							"dataSrc": "url",
+							"valueProperty": "",
+							"defaultValue": "",
+							"refreshOn": "product",
+							"filter": "id={{row.product.id}}",
+							"authenticate": false,
+							"template": "<span>{{ item.name }}</span>",
+							"multiple": false,
+							"protected": false,
+							"unique": false,
+							"persistent": true,
+							"hidden": false,
+							"clearOnHide": true,
+							"validate": {
+								"required": true
+							},
+							"errors": {
+								"required": "Please select the Sub Skill"
+							},
+							"type": "select",
+							"inDataGrid": true,
+							"labelPosition": "top",
+							"tags": [],
+							"conditional": {
+								"show": "",
+								"when": null,
+								"eq": ""
+							},
+							"properties": {},
+							"lockKey": true,
+							"clearOnRefresh": true,
+							"tabindex": 24
+						},
+						{
+							"autofocus": false,
+							"input": true,
+							"tableView": true,
+							"label": "Experience with skills",
+							"key": "experience",
+							"placeholder": "Experience with skills",
+							"data": {
+								"values": [
+									{
+										"value": "Novice(0-3yrs)",
+										"label": "Novice(0-3yrs)"
+									},
+									{
+										"value": "Intermediate(3-6yrs)",
+										"label": "Intermediate(3-6yrs)"
+									},
+									{
+										"value": "Advanced(6-15yrs)",
+										"label": "Advanced(6-15yrs)"
+									},
+									{
+										"value": "Practisoner(>15yrs)",
+										"label": "Practisoner(>15yrs)"
+									}
+								],
+								"json": "",
+								"url": "",
+								"resource": "",
+								"custom": ""
+							},
+							"dataSrc": "values",
+							"valueProperty": "",
+							"defaultValue": "",
+							"refreshOn": "",
+							"filter": "",
+							"authenticate": false,
+							"template": "<span>{{ item.label }}</span>",
+							"multiple": false,
+							"protected": false,
+							"unique": false,
+							"persistent": true,
+							"hidden": false,
+							"clearOnHide": true,
+							"validate": {
+								"required": true
+							},
+							"errors": {
+								"required": "Please select the years of experience with the Skill"
+							},
+							"type": "select",
+							"inDataGrid": true,
+							"labelPosition": "top",
+							"tags": [],
+							"conditional": {
+								"show": "",
+								"when": null,
+								"eq": ""
+							},
+							"properties": {},
+							"lockKey": true,
+							"tabindex": 25
+						}
+					],
+					"tableView": true,
+					"label": "Your Skills",
+					"key": "dataGrid",
+					"protected": false,
+					"persistent": true,
+					"hidden": false,
+					"clearOnHide": true,
+					"type": "datagrid",
+					"addAnotherPosition": "bottom",
+					"tags": [],
+					"conditional": {
+						"show": "",
+						"when": null,
+						"eq": ""
+					},
+					"properties": {},
+					"striped": false,
+					"bordered": false,
+					"hover": false,
+					"condensed": false,
+					"addAnother": "Add Skills",
+					"validate": {
+						"minLength": 1,
+						"maxLength": null
+					},
+					"customClass": "signup-button skills-table",
+					"tabindex": 26
+				}
+			],
+			"type": "panel",
+			"breadcrumb": "default",
+			"hideLabel": false,
+			"tags": [],
+			"conditional": {
+				"show": "",
+				"when": null,
+				"eq": ""
+			},
+			"properties": {}
+		},
+		{
+			"key": "content",
+			"label": "Content",
+			"input": false,
+			"tag": "p",
+			"attrs": [
+				{
+					"value": "",
+					"attr": ""
+				}
+			],
+			"className": "",
+			"content": "Declaration:- By listing or updating my mobile number, I authorize Lawe to email/call/send SMS text messages using an automatic telephone dialing system or prerecorded message to my cell phone number to provide information and services related to legal enquiries. Additionally, I authorize Lawe to follow up in order to remind me of upcoming appointments or provide messages that assist me with my legal practice.",
+			"type": "htmlelement",
+			"hideLabel": true,
+			"tags": [],
+			"conditional": {
+				"show": "",
+				"when": null,
+				"eq": ""
+			},
+			"properties": {}
+		},
+		{
+			"clearOnHide": false,
+			"label": "Columns",
+			"input": false,
+			"tableView": false,
+			"key": "columns",
+			"columns": [
+				{
+					"components": [
+						{
+							"autofocus": false,
+							"input": true,
+							"inputType": "checkbox",
+							"tableView": true,
+							"label": "By Checking this box, I am agreeing to the term & conditions of Lawe",
+							"dataGridLabel": false,
+							"key": "declarations",
+							"defaultValue": false,
+							"protected": false,
+							"persistent": true,
+							"hidden": false,
+							"name": "",
+							"value": "",
+							"clearOnHide": true,
+							"validate": {
+								"required": true
+							},
+							"type": "checkbox",
+							"labelPosition": "right",
+							"hideLabel": false,
+							"tags": [],
+							"conditional": {
+								"show": "",
+								"when": null,
+								"eq": ""
+							},
+							"properties": {},
+							"lockKey": true,
+							"tabindex": 27
+						}
+					],
+					"width": 12,
+					"offset": 0,
+					"push": 0,
+					"pull": 0
+				}
+			],
+			"type": "columns",
+			"hideLabel": true,
+			"tags": [],
+			"conditional": {
+				"show": "",
+				"when": null,
+				"eq": ""
+			},
+			"properties": {}
+		},
+		{
+			"clearOnHide": false,
+			"label": "Columns",
+			"input": false,
+			"tableView": false,
+			"key": "columns2",
+			"columns": [
+				{
+					"components": [],
+					"width": 4,
+					"offset": 0,
+					"push": 0,
+					"pull": 0
+				},
+				{
+					"components": [
+						{
+							"autofocus": false,
+							"input": true,
+							"label": "Submit",
+							"tableView": false,
+							"key": "submit",
+							"size": "sm",
+							"leftIcon": "",
+							"rightIcon": "",
+							"block": true,
+							"action": "saveState",
+							"theme": "primary",
+							"type": "button",
+							"tags": [],
+							"conditional": {
+								"show": "",
+								"when": "",
+								"eq": ""
+							},
+							"properties": {},
+							"customClass": "signup-button",
+							"tabindex": 28
+						}
+					],
+					"width": 4,
+					"offset": 0,
+					"push": 0,
+					"pull": 0
+				},
+				{
+					"components": [],
+					"width": 4,
+					"offset": 0,
+					"push": 0,
+					"pull": 0
+				}
+			],
+			"type": "columns",
+			"hideLabel": true,
+			"tags": [],
+			"conditional": {
+				"show": "",
+				"when": null,
+				"eq": ""
+			},
+			"properties": {}
+		}
+	],
+	"display": "form",
+	"submissionAccess": [
+		{
+			"roles": [],
+			"type": "create_all"
+		},
+		{
+			"roles": [
+				"5f3781647dd90957dff011c8"
+			],
+			"type": "read_all"
+		},
+		{
+			"roles": [
+				"5f3781647dd90957dff011c8"
+			],
+			"type": "update_all"
+		},
+		{
+			"roles": [
+				"5f3781647dd90957dff011c8"
+			],
+			"type": "delete_all"
+		},
+		{
+			"roles": [
+				"5f3781647dd90957dff011c8"
+			],
+			"type": "create_own"
+		},
+		{
+			"roles": [
+				"5f3781647dd90957dff011c8"
+			],
+			"type": "read_own"
+		},
+		{
+			"roles": [
+				"5f3781647dd90957dff011c8"
+			],
+			"type": "update_own"
+		},
+		{
+			"roles": [
+				"5f3781647dd909bb92f011c7"
+			],
+			"type": "delete_own"
+		}
+	],
+	"title": "Lawyer",
+	"name": "lawyer",
+	"path": "lawe/lawyer",
+	"access": [
+		{
+			"roles": [
+				"5f3781647dd909e8cff011c6",
+				"5f3781647dd909bb92f011c7",
+				"5f3781647dd90957dff011c8"
+			],
+			"type": "read_all"
+		}
+	],
+	"created": "2020-08-18T08:36:28.141Z",
+	"modified": "2020-10-28T15:57:08.362Z",
+	"machineName": "lawyer"
+}

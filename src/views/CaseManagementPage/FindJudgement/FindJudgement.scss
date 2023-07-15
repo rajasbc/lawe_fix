@@ -1,0 +1,42 @@
+.judgement-title-container {
+  margin: 72px 30px 0 30px;
+  h6 {
+      text-transform: unset;
+      color: #FFC602;
+      font-weight: 600;
+      font-size: 1.3rem;
+  }
+}
+.judgement-container {    
+  margin-bottom: 30px;
+  .WAMuiChipInput-chipContainer-44.WAMuiChipInput-labeled-48.WAMuiChipInput-chipContainer-44.WAMuiChipInput-standard-46 {
+      margin-top: 5px;
+  }
+  .MuiCardContent-root {
+      padding: 10px;
+  }
+
+  .judgement-content {
+      padding: 15px;
+      max-height: 200px;
+      overflow: hidden;
+  }
+  .judgement-box {
+      margin: 15px 30px;
+  }
+  .view-more {
+      padding: 10px 0;
+  }
+}
+.no-result-fount {
+  margin-top: 72px;
+  padding: 1rem;
+  min-height: 231px;
+  justify-content: center;
+  h2 {
+      margin: 0;
+  }
+  svg {
+      font-size: 2rem;
+  }
+}

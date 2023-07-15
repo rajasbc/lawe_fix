@@ -1,0 +1,10 @@
+{
+    "nankodai_Calendar_Page": ["customer", "org", "orgAdmin"],
+    "org-onboard": ["customer", "org", "orgAdmin"],
+    "org_store_page": ["customer", "org", "orgAdmin"],
+    "Profile_Page": ["customer", "org", "orgAdmin"],
+    "CustAppointment_Page": ["customer", "orgAdmin"],
+    "Upcoming_appointments_page": ["org", "orgAdmin"],
+    "today_appointments_page": ["org", "orgAdmin"],
+    "closed_appointments_page": ["org", "orgAdmin"]
+}

@@ -1,0 +1,592 @@
+{
+  "title": "Individual",
+  "name": "individual",
+  "components": [
+    {
+      "key": "BasicInformationPanel",
+      "title": "Basic Information",
+      "theme": "default",
+      "type": "panel",
+      "components": [
+        {
+          "type": "columns",
+          "hideLabel": true,
+          "columns": [
+            {
+              "components": [
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "First Name",
+                  "key": "fName",
+                  "placeholder": "First Name as per Aadhar",
+                  "spellcheck": false,
+                  "autocomplete": "off",
+                  "description":"First Name should match with Aadhar",
+                  "validate": {
+                    "required": true,
+                    "pattern": "^[A-Za-z ]+$"
+                  },
+                  "errors": {
+                    "pattern": "First Name should contain only alphabets",
+                    "required": "Please enter your First Name"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 1
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "label": "DOB",
+                  "key": "dob",
+                  "placeholder": "DOB",
+                  "format": "dd-MM-yyyy",
+                  "enableDate": true,
+                  "enableTime": false,
+                  "datepickerMode": "day",
+                  "datePicker": {
+                    "showWeeks": true,
+                    "startingDay": 0,
+                    "initDate": "",
+                    "minMode": "day",
+                    "maxMode": "year",
+                    "yearRows": 4,
+                    "yearColumns": 5,
+                    "minDate": null,
+                    "maxDate": "moment().add(0, 'days')",
+                    "datepickerMode": "day"
+                  },
+                  "timePicker": {
+                    "hourStep": 1,
+                    "minuteStep": 1,
+                    "showMeridian": true,
+                    "readonlyInput": false,
+                    "mousewheel": true,
+                    "arrowkeys": true
+                  },
+                  "validate": {
+                    "required": true,
+                    "custom": "valid = ((moment().diff(moment(input), 'days'))>= 7670) ? true : 'User age must be greater than 21';"
+                  },
+                  "errors": {
+                    "required": "Please select a valid Date of Birth",
+                    "custom": "Age must be greater than 21"
+                  },
+                  "type": "datetime",
+                  "labelPosition": "left-left",
+                  "tabindex": 3
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Email",
+                  "key": "email",
+                  "placeholder": "email@address.com",
+                  "spellcheck": false,
+                  "autocomplete": "off",
+                  "validate": {
+                    "required": true,
+                    "pattern": "^(([^<>()[\\]\\.,;:\\s@']+(\\.[^<>()[\\]\\.,;:\\s@']+)*)|('.+'))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
+                  },
+                  "errors": {
+                    "pattern": "Email Address is invalid",
+                    "required": "Please enter your Email Address"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 5
+                }
+              ]
+            },
+            {
+              "components": [
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Last Name",
+                  "key": "lName",
+                  "placeholder": "Last Name",
+                  "spellcheck": false,
+                  "autocomplete": "off",
+                  "validate": {
+                    "required": false,
+                    "pattern": "^[A-Za-z ]+$"
+                  },
+                  "errors": {
+                    "pattern": "Last Name should contain only alphabets",
+                    "required": "Please enter your Last Name"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 2
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "label": "Gender",
+                  "key": "gender",
+                  "placeholder": "Gender",
+                  "data": {
+                    "values": [
+                      {
+                        "value": "Male",
+                        "label": "Male"
+                      },
+                      {
+                        "value": "Female",
+                        "label": "Female"
+                      },
+                      {
+                        "value": "Other",
+                        "label": "Other"
+                      },
+                      {
+                        "value": "Don’t want to Disclose",
+                        "label": "Don’t want to Disclose"
+                      }
+                    ]
+                  },
+                  "dataSrc": "values",
+                  "template": "<span>{{ item.label }}</span>",
+                  "validate": {
+                    "required": true
+                  },
+                  "errors": {
+                    "required": "Please select your Gender"
+                  },
+                  "type": "select",
+                  "labelPosition": "left-left",
+                  "tabindex": 4
+                },
+								{
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Aadhar Number",
+                  "key": "aadhar",
+                  "placeholder": "ex: 234567890123",
+                  "description": "First character should not be 0 or 1 and the next 11 digits should contain only numbers",
+                  "autocomplete": "off",
+                  "spellcheck": false,
+                  "validate": {
+                    "required": true,
+                    "pattern": "^[2-9]{1}[0-9]{3}[0-9]{4}[0-9]{4}$"
+                  },
+                  "errors": {
+                    "pattern": "Enter a valid Aadhaar Card Number",
+                    "required": "Please enter your Aadhaar Card Number"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "AddressInformationPanel",
+      "title": "Address Information",
+      "theme": "default",
+      "type": "panel",
+      "components": [
+        {
+          "type": "columns",
+          "hideLabel": true,
+          "columns": [
+            {
+              "components": [
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Address",
+                  "key": "address",
+                  "placeholder": "Address",
+                  "spellcheck": false,
+                  "autocomplete":"off",
+                  "validate": {
+                    "required": true
+                  },
+                  "errors": {
+                    "required": "Please enter your Address"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 10
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Pincode",
+                  "key": "pincode",
+                  "placeholder": "Pincode",
+                  "spellcheck": false,
+                  "autocomplete":"off",
+                  "validate": {
+                    "required": true,
+                    "pattern": "^[1-9][0-9]{5}$"
+                  },
+                  "errors": {
+                    "pattern": "Enter the valid Pincode",
+                    "required": "Please enter your Pincode"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 12
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "label": "City",
+                  "key": "city",
+                  "placeholder": "City",
+                  "data": {
+                    "url": "https://data.lawe.co.in/citybystate"
+                  },
+                  "dataSrc": "url",
+                  "filter": "id={{data.state.id}}",
+                  "template": "<span>{{ item.cityName }}</span>",
+                  "validate": {
+                    "required": true
+                  },
+                  "errors": {
+                    "required": "Please select your City"
+                  },
+                  "type": "select",
+                  "labelPosition": "left-left",
+                  "tabindex": 14
+                }
+              ]
+            },
+            {
+              "components": [
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Area",
+                  "key": "location",
+                  "placeholder": "Area",
+                  "spellcheck": false,
+                  "autocomplete":"off",
+                  "validate": {
+                    "required": true
+                  },
+                  "errors": {
+                    "required": "Please enter your Area"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 11
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "label": "State",
+                  "key": "state",
+                  "placeholder": "State",
+                  "data": {
+                    "url": "https://data.lawe.co.in/states"
+                  },
+                  "dataSrc": "url",
+                  "template": "<span>{{ item.stateName }}</span>",
+                  "validate": {
+                    "required": true
+                  },
+                  "errors": {
+                    "required": "Please select your State"
+                  },
+                  "type": "select",
+                  "labelPosition": "left-left",
+                  "tabindex": 13
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "label": "Country",
+                  "key": "country",
+                  "placeholder": "Country",
+                  "data": {
+                    "values": [
+                      {
+                        "value": "India",
+                        "label": "India"
+                      }
+                    ]
+                  },
+                  "dataSrc": "values",
+                  "defaultValue": "India",
+                  "template": "<span>{{ item.label }}</span>",
+                  "validate": {
+                    "required": true
+                  },
+                  "type": "select",
+                  "labelPosition": "left-left",
+                  "tabindex": 15
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MobileSecurityPanel",
+      "title": "Mobile/Security",
+      "theme": "default",
+      "type": "panel",
+      "components": [
+        {
+          "type": "columns",
+          "hideLabel": true,
+          "columns": [
+            {
+              "components": [
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Mobile Number",
+                  "key": "mobileNo",
+                  "placeholder": "Mobile Number",
+                  "prefix": "+91",
+                  "spellcheck": false,
+                  "autocomplete": "off",
+                  "validate": {
+                    "required": true,
+                    "pattern": "^[6-9][0-9]{9}$"
+                  },
+                  "errors": {
+                    "pattern": "Enter valid Mobile Number",
+                    "required": "Please enter your Mobile Number"
+                  },
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "tabindex": 16
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "label": "OTP",
+                  "key": "otp",
+                  "placeholder": "OTP",
+                  "autocomplete": "off",
+                  "validate": {
+                    "required": false
+                  },
+                  "type": "number",
+                  "labelPosition": "left-left",
+                  "truncateMultipleSpaces": false,
+                  "requireDecimal": false,
+                  "delimiter": false,
+                  "tabindex": 18
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Password",
+                  "key": "password",
+                  "description": "Use a minimum of 8 characters with at least one uppercase letter, one lowercase letter, one number and one special character",
+                  "placeholder": "ex: Test@123",
+                  "spellcheck": false,
+                  "autocomplete": "off",
+                  "validate": {
+                    "required": true,
+                    "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&#])[A-Za-z\\d@$!%*?&#]{8,}$"
+                  },
+                  "errors": {
+                    "pattern": "Password should contain a minimum of 8 characters with at least one Uppercase letter, one Lowercase letter, one Number and one Special character",
+                    "required": "Password field is required"
+                  },
+                  "logic": [
+                    {
+                      "name": "PasswordLogic",
+                      "trigger": {
+                        "type": "simple",
+                        "simple": {
+                          "show": true,
+                          "when": "showpwd",
+                          "eq": "true"
+                        }
+                      },
+                      "actions": [   
+                        {
+                          "name": "MaskAction",
+                          "type": "property",
+                          "property": {
+                            "label": "Mask",
+                            "value": "mask",
+                            "type": "boolean"
+                          },
+                          "state": false
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "mask":true,
+                  "tabindex": 20,
+                  "redrawOn": "password",
+                  "clearOnHide": false
+                },
+                {
+                  "label": "Show Password",
+                  "key": "showpwd",
+                  "type": "checkbox",
+                  "input": true
+                }
+              ]
+            },
+            {
+              "components": [
+                {
+                  "input": true,
+                  "label": "Verify Phone",
+                  "key": "panel4ColumnsSendOtp",
+                  "size": "md",
+                  "action": "url",
+                  "disableOnInvalid": false,
+                  "theme": "default",
+                  "type": "button",
+                  "customClass": "button button-text",
+                  "headers": [
+                    {
+                      "value": "{{data.mobileNo}}",
+                      "header": "number"
+                    }
+                  ],
+                  "url": "https://data.lawe.co.in/generateOtp",
+                  "tabindex": 17
+                },
+                {
+                  "input": true,
+                  "tableView": true,
+                  "inputType": "text",
+                  "label": "Confirm Password",
+                  "key": "confirmPassword",
+                  "placeholder": "Re enter Password",
+                  "mask": true,
+                  "spellcheck": false,
+                  "autocomplete": "off",
+                  "validate": {
+                    "required": true,
+                    "custom": "valid = (data.password == data.confirmPassword)"
+                  },
+                  "errors": {
+                    "custom": "Password and Confirmation Password do not match.",
+                    "required": "Please enter the password again for Confirmation"
+                  },
+                  "logic": [
+                    {
+                      "name": "PasswordLogic",
+                      "trigger": {
+                        "type": "simple",
+                        "simple": {
+                          "show": true,
+                          "when": "showpwd",
+                          "eq": "true"
+                        }
+                      },
+                      "actions": [   
+                        {
+                          "name": "MaskAction",
+                          "type": "property",
+                          "property": {
+                            "label": "Mask",
+                            "value": "mask",
+                            "type": "boolean"
+                          },
+                          "state": false
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "textfield",
+                  "labelPosition": "left-left",
+                  "clearOnHide": false,
+                  "tabindex": 22
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "content",
+      "label": "Content",
+      "tag": "p",
+      "content": "Declaration:- By listing or updating my mobile number, I authorize LAWE to email/call/send SMS text messages using an automatic telephone dialing system or prerecorded message to my cell phone number to provide information and services related to legal enquiries. Additionally, I authorize LAWE to follow up in order to remind me of upcoming appointments or provide messages that assist me with my legal practice.",
+      "type": "htmlelement",
+      "hideLabel": true
+    },
+    {
+      "label": "AgreeCheck",
+      "key": "AgreeCheck",
+      "columns": [
+        {
+          "components": [
+            {
+              "input": true,
+              "inputType": "checkbox",
+              "tableView": true,
+              "label": "By Checking this box, I am agreeing to the term & conditions of LAWE",
+              "key": "declarations",
+              "validate": {
+                "required": true
+              },
+              "type": "checkbox",
+              "labelPosition": "right",
+              "tabindex": 22
+            }
+          ]
+        }
+      ],
+      "type": "columns",
+      "hideLabel": true
+    },
+    {
+      "label": "Submit",
+      "key": "Submit",
+      "columns": [
+        {
+          "components": [],
+          "width": 4
+        },
+        {
+          "components": [
+            {
+              "input": true,
+              "label": "Submit",
+              "key": "submit2",
+              "size": "sm",
+              "block": true,
+              "action": "saveState",
+              "theme": "primary",
+              "type": "button",
+              "customClass": "signup-button",
+              "tabindex": 23
+            }
+          ],
+          "width": 4
+        },
+        {
+          "components": [],
+          "width": 4
+        }
+      ],
+      "type": "columns",
+      "hideLabel": true
+    }
+  ]
+}
